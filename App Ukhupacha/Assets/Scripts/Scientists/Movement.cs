@@ -23,17 +23,19 @@ public class Movement : MonoBehaviour
         
         transform.Translate(Vector3.right * speed * Time.deltaTime * dir);
 
-        if (Input.GetMouseButtonDown(0))
+        /*if (Input.GetMouseButtonDown(0))
         {
             dir = dir * -1;
-        }
+        }*/
     }
 
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Wall")
         {
-            //dir = dir * -1;
+            dir = dir * -1;
+            transform.localScale = new Vector3(transform.localScale.x * -1, transform.localScale.y, transform.localScale.z);
+            
         }
     }
 }
