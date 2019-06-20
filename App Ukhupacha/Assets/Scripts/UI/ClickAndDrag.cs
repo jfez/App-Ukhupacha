@@ -8,16 +8,19 @@ public class ClickAndDrag : MonoBehaviour
     public GameObject panelSelected;
     public GameObject toolBar;
     public GameObject tool;
+    public Exit exitScript;
 
     private float toolBarThreshold;
-    
-    
+    private float menuThreshold;
+
+
     // Start is called before the first frame update
     void Start()
     {
         selected = false;
         panelSelected.SetActive(false);
         toolBarThreshold = -2.5f;
+        menuThreshold = 5.5f;
 
     }
 
@@ -34,9 +37,11 @@ public class ClickAndDrag : MonoBehaviour
         if (selected && Input.GetMouseButtonDown(0))
         {
             Vector3 cursorPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            if (cursorPos.y > toolBarThreshold)
+            if (cursorPos.y > toolBarThreshold && !exitScript.paused && cursorPos.y < menuThreshold)
             {
                 Vector3 updatedPos = new Vector3(cursorPos.x, cursorPos.y, transform.position.z);
+
+                //print(cursorPos.y);
 
                 GameObject clone;
                 clone = Instantiate(tool, updatedPos, transform.rotation);
