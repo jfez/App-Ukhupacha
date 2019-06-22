@@ -9,6 +9,8 @@ public class Exit : MonoBehaviour
 
     public GameObject backButton;
 
+    public bool dead;
+
     
     
     // Start is called before the first frame update
@@ -16,13 +18,14 @@ public class Exit : MonoBehaviour
     {
         canvasMenu.SetActive(false);
         paused = false;
+        dead = false;
         
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape) && !paused)
+        if (Input.GetKeyDown(KeyCode.Escape) && !paused && !dead)
         {
             canvasMenu.SetActive(true);
             Time.timeScale = 0.0f;

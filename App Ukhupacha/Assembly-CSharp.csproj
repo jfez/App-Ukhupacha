@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Manager\Exit.cs" />
+     <Compile Include="Assets\Scripts\Manager\RockSpawner.cs" />
      <Compile Include="Assets\Scripts\Scientists\Movement.cs" />
      <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
      <Compile Include="Assets\Scripts\UI\ClickAndDrag.cs" />
