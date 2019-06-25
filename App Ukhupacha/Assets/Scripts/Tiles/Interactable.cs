@@ -15,8 +15,7 @@ public class Interactable : MonoBehaviour
 
     private void OnMouseDown()
     {
-        canvas.gameObject.SetActive(false);
-        tile = detector.GetTile();
+        tile = (Tile) ScriptableObject.CreateInstance("Tile");
         tile.sprite = image.sprite;
         detector.RefreshTile(tile);
     }

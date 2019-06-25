@@ -1,49 +1,77 @@
 Base path: C:/Program Files/Unity/Hub/Editor/2018.3.3f1/Editor/Data
 Cmd: initializeCompiler
-Cmd: preprocess
-  insize=4896 outsize=2395 ok=1
-Cmd: preprocess
-  insize=2355 outsize=497 ok=1
-Cmd: preprocess
-  insize=3328 outsize=2000 ok=1
-Cmd: preprocess
-  insize=3974 outsize=411 ok=1
-Cmd: preprocess
-  insize=5184 outsize=1875 ok=1
-Cmd: preprocess
-  insize=3065 outsize=1094 ok=1
-Cmd: preprocess
-  insize=1431 outsize=281 ok=1
-Cmd: preprocess
-  insize=978 outsize=231 ok=1
-Cmd: preprocess
-  insize=6970 outsize=1724 ok=1
-Cmd: preprocess
-  insize=5490 outsize=2934 ok=1
-Cmd: preprocess
-  insize=6739 outsize=3232 ok=1
-Cmd: preprocess
-  insize=6922 outsize=3299 ok=1
-Cmd: preprocess
-  insize=7831 outsize=3771 ok=1
-Cmd: preprocess
-  insize=5505 outsize=2651 ok=1
-Cmd: preprocess
-  insize=1532 outsize=340 ok=1
-Cmd: preprocess
-  insize=690 outsize=344 ok=1
-Cmd: preprocess
-  insize=3040 outsize=1075 ok=1
-Cmd: preprocess
-  insize=6714 outsize=963 ok=1
-Cmd: preprocess
-  insize=50297 outsize=2541 ok=1
-Cmd: preprocess
-  insize=51349 outsize=2561 ok=1
-Cmd: preprocess
-  insize=56710 outsize=2311 ok=1
-Cmd: preprocess
-  insize=54094 outsize=2609 ok=1
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
 Cmd: initializeCompiler
 Cmd: initializeCompiler
 Cmd: initializeCompiler

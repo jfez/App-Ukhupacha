@@ -8,20 +8,27 @@ using UnityEngine.EventSystems;
 public class Detector : MonoBehaviour
 {
     public Grid grid;
-    public Tilemap tilemap;
-    public Sprite newSprite;
+    public Tilemap inputTilemap;
+    public Tilemap renderTilemap;
 
-    public Canvas canvas;
+    public Canvas toolsCanvas;
+    public Canvas highlightCanvas;
 
-    public Canvas secondCanvas;
+    public Sprite blockerSprite;
+    public Sprite ropeSprite;
+    public Sprite zipSprite;
+
+    public Sprite blockerSprite2;
+    public Sprite ropeSprite2;
+    public Sprite zipSprite2;
 
     Tile tile;
+    Tile renderTile;
     Vector3Int coordinate;
     Vector3 offset;
 
-    GraphicRaycaster graphicsRaycaster;
-    PointerEventData pointerEventData;
-    public EventSystem eventSystem;
+    Transform[] canvasChildren;
+
     public Dialogue dialogue;
 
     public bool canClick;
@@ -29,26 +36,15 @@ public class Detector : MonoBehaviour
 
     private void Start()
     {
-        graphicsRaycaster = canvas.GetComponent<GraphicRaycaster>();
         offset = new Vector3(0f, grid.cellSize.y/2, 0f);
         canClick = true;
         inMenu = false;
+        canvasChildren = toolsCanvas.GetComponentsInChildren<Transform>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        pointerEventData = new PointerEventData(eventSystem);
-        //Set the Pointer Event Position to that of the mouse position
-        pointerEventData.position = Input.mousePosition;
-
-        //Create a list of Raycast Results
-        List<RaycastResult> results = new List<RaycastResult>();
-
-        //Raycast using the Graphics Raycaster and mouse click position
-        graphicsRaycaster.Raycast(pointerEventData, results);
-
-        if (results.Count > 0) return;
 
         if (Input.GetMouseButtonDown(0))
         {
@@ -59,28 +55,49 @@ public class Detector : MonoBehaviour
                 {
                     Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
                     coordinate = grid.WorldToCell(mouseWorldPos);
-                    tile = (Tile)tilemap.GetTile(coordinate);
-                    if (tile == null)
+                    tile = (Tile)inputTilemap.GetTile(coordinate);
+                    renderTile = (Tile)renderTilemap.GetTile(coordinate);
+                    if (tile == null || renderTile != null && (renderTile.sprite == blockerSprite2 || renderTile.sprite == zipSprite2 || renderTile.sprite == ropeSprite2))
                     {
-                        canvas.transform.position = grid.GetCellCenterWorld(coordinate) + offset;
-                        secondCanvas.transform.position = grid.GetCellCenterWorld(coordinate) + offset;
-                        canvas.gameObject.SetActive(true);
-                        secondCanvas.gameObject.SetActive(true);
-
-                        tile = (Tile)ScriptableObject.CreateInstance("Tile");
-
-                        canClick = false;
+                        EnableCanvases();
+                        canvasChildren[1].transform.gameObject.SetActive(false);
+                        canvasChildren[2].transform.gameObject.SetActive(false);
+                        canvasChildren[3].transform.gameObject.SetActive(false);
+                        AdjustCanvases();
                     }
-                    /*else
+                    else if (tile.sprite == blockerSprite)
                     {
-                        Debug.Log("Me van a destruir");
-                    }*/
+                        EnableCanvases();
+                        canvasChildren[1].transform.gameObject.SetActive(false);
+                        canvasChildren[2].gameObject.SetActive(false);
+                        canvasChildren[3].transform.gameObject.SetActive(true);
+                        AdjustCanvases();
+                    }
+                    else if (tile.sprite == zipSprite)
+                    {
+                        EnableCanvases();
+                        canvasChildren[1].transform.gameObject.SetActive(false);
+                        canvasChildren[2].transform.gameObject.SetActive(true);
+                        canvasChildren[3].transform.gameObject.SetActive(false);
+                        AdjustCanvases();
+                    }
+                    else
+                    {
+                        EnableCanvases();
+                        canvasChildren[1].transform.gameObject.SetActive(true);
+                        canvasChildren[2].transform.gameObject.SetActive(false);
+                        canvasChildren[3].transform.gameObject.SetActive(false);
+                        AdjustCanvases();
+                    }
+
+                    canClick = false;
+
                 }
 
                 else if (!canClick && !inMenu)
                 {
-                    canvas.gameObject.SetActive(false);
-                    secondCanvas.gameObject.SetActive(false);
+                    toolsCanvas.gameObject.SetActive(false);
+                    highlightCanvas.gameObject.SetActive(false);
 
                     canClick = true;
                 }
@@ -93,11 +110,6 @@ public class Detector : MonoBehaviour
         
     }
 
-    public Tile GetTile()
-    {
-        return tile;
-    }
-
     public Vector3Int GetPosition()
     {
         return coordinate;
@@ -105,7 +117,19 @@ public class Detector : MonoBehaviour
 
     public void RefreshTile(Tile t)
     {
-        tilemap.SetTile(coordinate, t);
-        tilemap.RefreshTile(coordinate);
+        renderTilemap.SetTile(coordinate, t);
+        renderTilemap.RefreshTile(coordinate);
+    }
+
+    private void EnableCanvases()
+    {
+        toolsCanvas.gameObject.SetActive(true);
+        highlightCanvas.gameObject.SetActive(true);
+    }
+
+    private void AdjustCanvases()
+    {
+        toolsCanvas.transform.position = grid.GetCellCenterWorld(coordinate) + offset;
+        highlightCanvas.transform.position = grid.GetCellCenterWorld(coordinate) + offset;
     }
 }
