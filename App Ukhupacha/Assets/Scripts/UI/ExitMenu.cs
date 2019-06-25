@@ -8,6 +8,7 @@ public class ExitMenu : MonoBehaviour
     public Sprite notHold;
     public GameObject canvasMenu;
     public Exit exitScript;
+    public Detector detector;
 
     private SpriteRenderer buttonSprite;
 
@@ -46,5 +47,6 @@ public class ExitMenu : MonoBehaviour
         canvasMenu.SetActive(false);
         Time.timeScale = 1.0f;
         exitScript.paused = false;
+        detector.inMenu = false;
     }
 }

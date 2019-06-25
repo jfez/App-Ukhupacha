@@ -10,6 +10,8 @@ public class ShowMenu : MonoBehaviour
     public Sprite hold;
     public Sprite notHold;
 
+    public Detector detector;
+
     private SpriteRenderer buttonSprite;
 
     private BoxCollider2D col;
@@ -47,5 +49,6 @@ public class ShowMenu : MonoBehaviour
         canvasMenu.SetActive(true);
         Time.timeScale = 0.0f;
         exitScript.paused = true;
+        detector.inMenu = true;
     }
 }

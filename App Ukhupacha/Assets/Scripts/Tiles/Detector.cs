@@ -22,11 +22,17 @@ public class Detector : MonoBehaviour
     GraphicRaycaster graphicsRaycaster;
     PointerEventData pointerEventData;
     public EventSystem eventSystem;
+    public Dialogue dialogue;
+
+    public bool canClick;
+    public bool inMenu;
 
     private void Start()
     {
         graphicsRaycaster = canvas.GetComponent<GraphicRaycaster>();
         offset = new Vector3(0f, grid.cellSize.y/2, 0f);
+        canClick = true;
+        inMenu = false;
     }
 
     // Update is called once per frame
@@ -46,23 +52,45 @@ public class Detector : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0))
         {
-            Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            coordinate = grid.WorldToCell(mouseWorldPos);
-            tile = (Tile) tilemap.GetTile(coordinate);
-            if (tile == null)
-            {
-                canvas.transform.position = grid.GetCellCenterWorld(coordinate) + offset;
-                secondCanvas.transform.position = grid.GetCellCenterWorld(coordinate) + offset;
-                canvas.gameObject.SetActive(true);
-                secondCanvas.gameObject.SetActive(true);
 
-                tile = (Tile)ScriptableObject.CreateInstance("Tile");
-            }
-            else
+            if (dialogue == null)
             {
-                Debug.Log("Me van a destruir");
+                if (canClick && !inMenu)
+                {
+                    Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+                    coordinate = grid.WorldToCell(mouseWorldPos);
+                    tile = (Tile)tilemap.GetTile(coordinate);
+                    if (tile == null)
+                    {
+                        canvas.transform.position = grid.GetCellCenterWorld(coordinate) + offset;
+                        secondCanvas.transform.position = grid.GetCellCenterWorld(coordinate) + offset;
+                        canvas.gameObject.SetActive(true);
+                        secondCanvas.gameObject.SetActive(true);
+
+                        tile = (Tile)ScriptableObject.CreateInstance("Tile");
+
+                        canClick = false;
+                    }
+                    /*else
+                    {
+                        Debug.Log("Me van a destruir");
+                    }*/
+                }
+
+                else if (!canClick && !inMenu)
+                {
+                    canvas.gameObject.SetActive(false);
+                    secondCanvas.gameObject.SetActive(false);
+
+                    canClick = true;
+                }
             }
+            
+
+
         }
+
+        
     }
 
     public Tile GetTile()

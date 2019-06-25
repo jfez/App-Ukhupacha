@@ -6,8 +6,9 @@ public class Exit : MonoBehaviour
 {
     public GameObject canvasMenu;
     public bool paused;
+    public Detector detector;
 
-    public GameObject backButton;
+    
 
     public bool dead;
 
@@ -30,6 +31,7 @@ public class Exit : MonoBehaviour
             canvasMenu.SetActive(true);
             Time.timeScale = 0.0f;
             paused = true;
+            detector.inMenu = true;
             
         }
 
@@ -38,6 +40,7 @@ public class Exit : MonoBehaviour
             canvasMenu.SetActive(false);
             Time.timeScale = 1.0f;
             paused = false;
+            detector.inMenu = false;
         }
     }
 }
