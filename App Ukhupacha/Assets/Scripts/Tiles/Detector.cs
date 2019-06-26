@@ -73,12 +73,21 @@ public class Detector : MonoBehaviour
                     coordinate = grid.WorldToCell(mouseWorldPos);
                     inputTile = (Tile)inputTilemap.GetTile(coordinate);
                     outputTile = (Tile)outputTilemap.GetTile(coordinate);
-                    if (inputTile == null  || outputTile != null)
+                    if (inputTile == null)
                     {
                         EnableCanvases();
                         canvasChildren[1].transform.gameObject.SetActive(false);
                         canvasChildren[2].transform.gameObject.SetActive(false);
                         canvasChildren[3].transform.gameObject.SetActive(false);
+                        canvasChildren[4].transform.gameObject.SetActive(false);
+                        AdjustCanvases();
+                    }
+                    else if (outputTile != null) {
+                        EnableCanvases();
+                        canvasChildren[1].transform.gameObject.SetActive(false);
+                        canvasChildren[2].transform.gameObject.SetActive(false);
+                        canvasChildren[3].transform.gameObject.SetActive(false);
+                        canvasChildren[4].transform.gameObject.SetActive(true);
                         AdjustCanvases();
                     }
                     else if (inputTile.sprite == blockerSprite)
@@ -87,6 +96,7 @@ public class Detector : MonoBehaviour
                         canvasChildren[1].transform.gameObject.SetActive(false);
                         canvasChildren[2].gameObject.SetActive(false);
                         canvasChildren[3].transform.gameObject.SetActive(true);
+                        canvasChildren[4].transform.gameObject.SetActive(false);
                         AdjustCanvases();
                     }
                     else if (inputTile.sprite == zipSprite)
@@ -95,6 +105,7 @@ public class Detector : MonoBehaviour
                         canvasChildren[1].transform.gameObject.SetActive(false);
                         canvasChildren[2].transform.gameObject.SetActive(true);
                         canvasChildren[3].transform.gameObject.SetActive(false);
+                        canvasChildren[4].transform.gameObject.SetActive(false);
                         AdjustCanvases();
                     }
                     else
@@ -103,6 +114,7 @@ public class Detector : MonoBehaviour
                         canvasChildren[1].transform.gameObject.SetActive(true);
                         canvasChildren[2].transform.gameObject.SetActive(false);
                         canvasChildren[3].transform.gameObject.SetActive(false);
+                        canvasChildren[4].transform.gameObject.SetActive(false);
                         AdjustCanvases();
                     }
 
@@ -126,6 +138,11 @@ public class Detector : MonoBehaviour
     public Vector3 GetPosition()
     {
         return grid.CellToWorld(coordinate) + grid.cellSize/2;
+    }
+
+    public Vector3Int GetPositionInt()
+    {
+        return coordinate;
     }
 
     public void RefreshTile(Tile t)
