@@ -7,16 +7,20 @@ using UnityEngine.UI;
 public class Interactable : MonoBehaviour
 {
 
-    public Image image;
+    public GameObject prefab;
     public Detector detector;
     public Canvas canvas;
+    public Tile tile;
 
-    Tile tile;
+    Vector3 position;
 
     private void OnMouseDown()
     {
-        tile = (Tile) ScriptableObject.CreateInstance("Tile");
-        tile.sprite = image.sprite;
+        position = detector.GetPosition();
+        Instantiate(prefab, position, prefab.transform.rotation);
+
+        //tile = (Tile) ScriptableObject.CreateInstance("Tile");
+        //tile.sprite = image.sprite;
         detector.RefreshTile(tile);
     }
 }

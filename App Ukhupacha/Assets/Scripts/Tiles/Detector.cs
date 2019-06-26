@@ -9,10 +9,12 @@ public class Detector : MonoBehaviour
 {
     public Grid grid;
     public Tilemap inputTilemap;
-    public Tilemap renderTilemap;
+    public Tilemap outputTilemap;
 
     public Canvas toolsCanvas;
     public Canvas highlightCanvas;
+    public Canvas hudCanvas;
+    public EventSystem eventSystem;
 
     public Sprite blockerSprite;
     public Sprite ropeSprite;
@@ -22,12 +24,16 @@ public class Detector : MonoBehaviour
     public Sprite ropeSprite2;
     public Sprite zipSprite2;
 
-    Tile tile;
-    Tile renderTile;
-    Vector3Int coordinate;
-    Vector3 offset;
-
     Transform[] canvasChildren;
+
+    Tile inputTile;
+    Tile outputTile;
+
+    Vector3 offset;
+    Vector3Int coordinate;
+
+    GraphicRaycaster hudRaycaster;
+    PointerEventData hudPointEventData;
 
     public Dialogue dialogue;
 
@@ -39,6 +45,7 @@ public class Detector : MonoBehaviour
         offset = new Vector3(0f, grid.cellSize.y/2, 0f);
         canClick = true;
         inMenu = false;
+        hudRaycaster = hudCanvas.GetComponent<GraphicRaycaster>();
         canvasChildren = toolsCanvas.GetComponentsInChildren<Transform>();
     }
 
@@ -48,6 +55,15 @@ public class Detector : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0))
         {
+            hudPointEventData = new PointerEventData(eventSystem);
+            hudPointEventData.position = Input.mousePosition;
+            List<RaycastResult> results = new List<RaycastResult>();
+            hudRaycaster.Raycast(hudPointEventData, results);
+
+            if (results.Count != 0)
+            {
+                return;
+            }
 
             if (dialogue == null)
             {
@@ -55,9 +71,9 @@ public class Detector : MonoBehaviour
                 {
                     Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
                     coordinate = grid.WorldToCell(mouseWorldPos);
-                    tile = (Tile)inputTilemap.GetTile(coordinate);
-                    renderTile = (Tile)renderTilemap.GetTile(coordinate);
-                    if (tile == null || renderTile != null && (renderTile.sprite == blockerSprite2 || renderTile.sprite == zipSprite2 || renderTile.sprite == ropeSprite2))
+                    inputTile = (Tile)inputTilemap.GetTile(coordinate);
+                    outputTile = (Tile)outputTilemap.GetTile(coordinate);
+                    if (inputTile == null  || outputTile != null)
                     {
                         EnableCanvases();
                         canvasChildren[1].transform.gameObject.SetActive(false);
@@ -65,7 +81,7 @@ public class Detector : MonoBehaviour
                         canvasChildren[3].transform.gameObject.SetActive(false);
                         AdjustCanvases();
                     }
-                    else if (tile.sprite == blockerSprite)
+                    else if (inputTile.sprite == blockerSprite)
                     {
                         EnableCanvases();
                         canvasChildren[1].transform.gameObject.SetActive(false);
@@ -73,7 +89,7 @@ public class Detector : MonoBehaviour
                         canvasChildren[3].transform.gameObject.SetActive(true);
                         AdjustCanvases();
                     }
-                    else if (tile.sprite == zipSprite)
+                    else if (inputTile.sprite == zipSprite)
                     {
                         EnableCanvases();
                         canvasChildren[1].transform.gameObject.SetActive(false);
@@ -102,23 +118,20 @@ public class Detector : MonoBehaviour
                     canClick = true;
                 }
             }
-            
-
-
         }
 
         
     }
 
-    public Vector3Int GetPosition()
+    public Vector3 GetPosition()
     {
-        return coordinate;
+        return grid.CellToWorld(coordinate) + grid.cellSize/2;
     }
 
     public void RefreshTile(Tile t)
     {
-        renderTilemap.SetTile(coordinate, t);
-        renderTilemap.RefreshTile(coordinate);
+        outputTilemap.SetTile(coordinate, t);
+        outputTilemap.RefreshTile(coordinate);
     }
 
     private void EnableCanvases()

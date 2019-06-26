@@ -1,0 +1,3252 @@
+fileFormatVersion: 2
+guid: f306ec473082f6840a9f062e4f07e4ee
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: background cueva 1_0
+    21300002: background cueva 1_1
+    21300004: background cueva 1_2
+    21300006: background cueva 1_3
+    21300008: background cueva 1_4
+    21300010: background cueva 1_5
+    21300012: background cueva 1_6
+    21300014: background cueva 1_7
+    21300016: background cueva 1_8
+    21300018: background cueva 1_9
+    21300020: background cueva 1_10
+    21300022: background cueva 1_11
+    21300024: background cueva 1_12
+    21300026: background cueva 1_13
+    21300028: background cueva 1_14
+    21300030: background cueva 1_15
+    21300032: background cueva 1_16
+    21300034: background cueva 1_17
+    21300036: background cueva 1_18
+    21300038: background cueva 1_19
+    21300040: background cueva 1_20
+    21300042: background cueva 1_21
+    21300044: background cueva 1_22
+    21300046: background cueva 1_23
+    21300048: background cueva 1_24
+    21300050: background cueva 1_25
+    21300052: background cueva 1_26
+    21300054: background cueva 1_27
+    21300056: background cueva 1_28
+    21300058: background cueva 1_29
+    21300060: background cueva 1_30
+    21300062: background cueva 1_31
+    21300064: background cueva 1_32
+    21300066: background cueva 1_33
+    21300068: background cueva 1_34
+    21300070: background cueva 1_35
+    21300072: background cueva 1_36
+    21300074: background cueva 1_37
+    21300076: background cueva 1_38
+    21300078: background cueva 1_39
+    21300080: background cueva 1_40
+    21300082: background cueva 1_41
+    21300084: background cueva 1_42
+    21300086: background cueva 1_43
+    21300088: background cueva 1_44
+    21300090: background cueva 1_45
+    21300092: background cueva 1_46
+    21300094: background cueva 1_47
+    21300096: background cueva 1_48
+    21300098: background cueva 1_49
+    21300100: background cueva 1_50
+    21300102: background cueva 1_51
+    21300104: background cueva 1_52
+    21300106: background cueva 1_53
+    21300108: background cueva 1_54
+    21300110: background cueva 1_55
+    21300112: background cueva 1_56
+    21300114: background cueva 1_57
+    21300116: background cueva 1_58
+    21300118: background cueva 1_59
+    21300120: background cueva 1_60
+    21300122: background cueva 1_61
+    21300124: background cueva 1_62
+    21300126: background cueva 1_63
+    21300128: background cueva 1_64
+    21300130: background cueva 1_65
+    21300132: background cueva 1_66
+    21300134: background cueva 1_67
+    21300136: background cueva 1_68
+    21300138: background cueva 1_69
+    21300140: background cueva 1_70
+    21300142: background cueva 1_71
+    21300144: background cueva 1_72
+    21300146: background cueva 1_73
+    21300148: background cueva 1_74
+    21300150: background cueva 1_75
+    21300152: background cueva 1_76
+    21300154: background cueva 1_77
+    21300156: background cueva 1_78
+    21300158: background cueva 1_79
+    21300160: background cueva 1_80
+    21300162: background cueva 1_81
+    21300164: background cueva 1_82
+    21300166: background cueva 1_83
+    21300168: background cueva 1_84
+    21300170: background cueva 1_85
+    21300172: background cueva 1_86
+    21300174: background cueva 1_87
+    21300176: background cueva 1_88
+    21300178: background cueva 1_89
+    21300180: background cueva 1_90
+    21300182: background cueva 1_91
+    21300184: background cueva 1_92
+    21300186: background cueva 1_93
+    21300188: background cueva 1_94
+    21300190: background cueva 1_95
+    21300192: background cueva 1_96
+    21300194: background cueva 1_97
+    21300196: background cueva 1_98
+    21300198: background cueva 1_99
+    21300200: background cueva 1_100
+    21300202: background cueva 1_101
+    21300204: background cueva 1_102
+    21300206: background cueva 1_103
+    21300208: background cueva 1_104
+    21300210: background cueva 1_105
+    21300212: background cueva 1_106
+    21300214: background cueva 1_107
+    21300216: background cueva 1_108
+    21300218: background cueva 1_109
+    21300220: background cueva 1_110
+    21300222: background cueva 1_111
+    21300224: background cueva 1_112
+    21300226: background cueva 1_113
+    21300228: background cueva 1_114
+    21300230: background cueva 1_115
+    21300232: background cueva 1_116
+    21300234: background cueva 1_117
+    21300236: background cueva 1_118
+    21300238: background cueva 1_119
+    21300240: background cueva 1_120
+    21300242: background cueva 1_121
+    21300244: background cueva 1_122
+    21300246: background cueva 1_123
+    21300248: background cueva 1_124
+    21300250: background cueva 1_125
+    21300252: background cueva 1_126
+    21300254: background cueva 1_127
+    21300256: background cueva 1_128
+    21300258: background cueva 1_129
+    21300260: background cueva 1_130
+    21300262: background cueva 1_131
+    21300264: background cueva 1_132
+    21300266: background cueva 1_133
+    21300268: background cueva 1_134
+    21300270: background cueva 1_135
+    21300272: background cueva 1_136
+    21300274: background cueva 1_137
+    21300276: background cueva 1_138
+    21300278: background cueva 1_139
+    21300280: background cueva 1_140
+    21300282: background cueva 1_141
+    21300284: background cueva 1_142
+    21300286: background cueva 1_143
+    21300288: background cueva 1_144
+    21300290: background cueva 1_145
+    21300292: background cueva 1_146
+    21300294: background cueva 1_147
+    21300296: background cueva 1_148
+    21300298: background cueva 1_149
+    21300300: background cueva 1_150
+    21300302: background cueva 1_151
+    21300304: background cueva 1_152
+    21300306: background cueva 1_153
+    21300308: background cueva 1_154
+    21300310: background cueva 1_155
+    21300312: background cueva 1_156
+    21300314: background cueva 1_157
+    21300316: background cueva 1_158
+    21300318: background cueva 1_159
+    21300320: background cueva 1_160
+    21300322: background cueva 1_161
+    21300324: background cueva 1_162
+    21300326: background cueva 1_163
+    21300328: background cueva 1_164
+    21300330: background cueva 1_165
+    21300332: background cueva 1_166
+    21300334: background cueva 1_167
+    21300336: background cueva 1_168
+    21300338: background cueva 1_169
+    21300340: background cueva 1_170
+    21300342: background cueva 1_171
+    21300344: background cueva 1_172
+    21300346: background cueva 1_173
+    21300348: background cueva 1_174
+    21300350: background cueva 1_175
+    21300352: background cueva 1_176
+    21300354: background cueva 1_177
+    21300356: background cueva 1_178
+    21300358: background cueva 1_179
+    21300360: background cueva 1_180
+    21300362: background cueva 1_181
+    21300364: background cueva 1_182
+    21300366: background cueva 1_183
+    21300368: background cueva 1_184
+    21300370: background cueva 1_185
+    21300372: background cueva 1_186
+    21300374: background cueva 1_187
+    21300376: background cueva 1_188
+    21300378: background cueva 1_189
+    21300380: background cueva 1_190
+    21300382: background cueva 1_191
+    21300384: background cueva 1_192
+    21300386: background cueva 1_193
+    21300388: background cueva 1_194
+    21300390: background cueva 1_195
+    21300392: background cueva 1_196
+    21300394: background cueva 1_197
+    21300396: background cueva 1_198
+    21300398: background cueva 1_199
+    21300400: background cueva 1_200
+    21300402: background cueva 1_201
+    21300404: background cueva 1_202
+    21300406: background cueva 1_203
+    21300408: background cueva 1_204
+    21300410: background cueva 1_205
+    21300412: background cueva 1_206
+    21300414: background cueva 1_207
+    21300416: background cueva 1_208
+    21300418: background cueva 1_209
+    21300420: background cueva 1_210
+    21300422: background cueva 1_211
+    21300424: background cueva 1_212
+    21300426: background cueva 1_213
+    21300428: background cueva 1_214
+    21300430: background cueva 1_215
+    21300432: background cueva 1_216
+    21300434: background cueva 1_217
+    21300436: background cueva 1_218
+    21300438: background cueva 1_219
+    21300440: background cueva 1_220
+    21300442: background cueva 1_221
+    21300444: background cueva 1_222
+    21300446: background cueva 1_223
+    21300448: background cueva 1_224
+    21300450: background cueva 1_225
+    21300452: background cueva 1_226
+    21300454: background cueva 1_227
+    21300456: background cueva 1_228
+    21300458: background cueva 1_229
+    21300460: background cueva 1_230
+    21300462: background cueva 1_231
+    21300464: background cueva 1_232
+    21300466: background cueva 1_233
+    21300468: background cueva 1_234
+    21300470: background cueva 1_235
+    21300472: background cueva 1_236
+    21300474: background cueva 1_237
+    21300476: background cueva 1_238
+    21300478: background cueva 1_239
+    21300480: background cueva 1_240
+    21300482: background cueva 1_241
+    21300484: background cueva 1_242
+    21300486: background cueva 1_243
+    21300488: background cueva 1_244
+    21300490: background cueva 1_245
+    21300492: background cueva 1_246
+    21300494: background cueva 1_247
+    21300496: background cueva 1_248
+    21300498: background cueva 1_249
+    21300500: background cueva 1_250
+    21300502: background cueva 1_251
+    21300504: background cueva 1_252
+    21300506: background cueva 1_253
+    21300508: background cueva 1_254
+    21300510: background cueva 1_255
+    21300512: background cueva 1_256
+    21300514: background cueva 1_257
+    21300516: background cueva 1_258
+    21300518: background cueva 1_259
+    21300520: background cueva 1_260
+    21300522: background cueva 1_261
+    21300524: background cueva 1_262
+    21300526: background cueva 1_263
+    21300528: background cueva 1_264
+    21300530: background cueva 1_265
+    21300532: background cueva 1_266
+    21300534: background cueva 1_267
+    21300536: background cueva 1_268
+    21300538: background cueva 1_269
+    21300540: background cueva 1_270
+    21300542: background cueva 1_271
+    21300544: background cueva 1_272
+    21300546: background cueva 1_273
+    21300548: background cueva 1_274
+    21300550: background cueva 1_275
+    21300552: background cueva 1_276
+    21300554: background cueva 1_277
+    21300556: background cueva 1_278
+    21300558: background cueva 1_279
+    21300560: background cueva 1_280
+    21300562: background cueva 1_281
+    21300564: background cueva 1_282
+    21300566: background cueva 1_283
+    21300568: background cueva 1_284
+    21300570: background cueva 1_285
+    21300572: background cueva 1_286
+    21300574: background cueva 1_287
+    21300576: background cueva 1_288
+    21300578: background cueva 1_289
+    21300580: background cueva 1_290
+    21300582: background cueva 1_291
+    21300584: background cueva 1_292
+    21300586: background cueva 1_293
+    21300588: background cueva 1_294
+    21300590: background cueva 1_295
+    21300592: background cueva 1_296
+    21300594: background cueva 1_297
+    21300596: background cueva 1_298
+    21300598: background cueva 1_299
+    21300600: background cueva 1_300
+    21300602: background cueva 1_301
+    21300604: background cueva 1_302
+    21300606: background cueva 1_303
+    21300608: background cueva 1_304
+    21300610: background cueva 1_305
+    21300612: background cueva 1_306
+    21300614: background cueva 1_307
+    21300616: background cueva 1_308
+    21300618: background cueva 1_309
+    21300620: background cueva 1_310
+    21300622: background cueva 1_311
+    21300624: background cueva 1_312
+    21300626: background cueva 1_313
+    21300628: background cueva 1_314
+    21300630: background cueva 1_315
+    21300632: background cueva 1_316
+    21300634: background cueva 1_317
+    21300636: background cueva 1_318
+    21300638: background cueva 1_319
+    21300640: background cueva 1_320
+    21300642: background cueva 1_321
+    21300644: background cueva 1_322
+    21300646: background cueva 1_323
+    21300648: background cueva 1_324
+    21300650: background cueva 1_325
+    21300652: background cueva 1_326
+    21300654: background cueva 1_327
+    21300656: background cueva 1_328
+    21300658: background cueva 1_329
+    21300660: background cueva 1_330
+    21300662: background cueva 1_331
+    21300664: background cueva 1_332
+    21300666: background cueva 1_333
+    21300668: background cueva 1_334
+    21300670: background cueva 1_335
+    21300672: background cueva 1_336
+    21300674: background cueva 1_337
+    21300676: background cueva 1_338
+    21300678: background cueva 1_339
+    21300680: background cueva 1_340
+    21300682: background cueva 1_341
+    21300684: background cueva 1_342
+    21300686: background cueva 1_343
+    21300688: background cueva 1_344
+    21300690: background cueva 1_345
+    21300692: background cueva 1_346
+    21300694: background cueva 1_347
+    21300696: background cueva 1_348
+    21300698: background cueva 1_349
+    21300700: background cueva 1_350
+    21300702: background cueva 1_351
+    21300704: background cueva 1_352
+    21300706: background cueva 1_353
+    21300708: background cueva 1_354
+    21300710: background cueva 1_355
+    21300712: background cueva 1_356
+    21300714: background cueva 1_357
+    21300716: background cueva 1_358
+    21300718: background cueva 1_359
+    21300720: background cueva 1_360
+    21300722: background cueva 1_361
+    21300724: background cueva 1_362
+    21300726: background cueva 1_363
+    21300728: background cueva 1_364
+    21300730: background cueva 1_365
+    21300732: background cueva 1_366
+    21300734: background cueva 1_367
+    21300736: background cueva 1_368
+    21300738: background cueva 1_369
+    21300740: background cueva 1_370
+    21300742: background cueva 1_371
+    21300744: background cueva 1_372
+    21300746: background cueva 1_373
+    21300748: background cueva 1_374
+    21300750: background cueva 1_375
+    21300752: background cueva 1_376
+    21300754: background cueva 1_377
+    21300756: background cueva 1_378
+    21300758: background cueva 1_379
+    21300760: background cueva 1_380
+    21300762: background cueva 1_381
+    21300764: background cueva 1_382
+    21300766: background cueva 1_383
+    21300768: background cueva 1_384
+    21300770: background cueva 1_385
+    21300772: background cueva 1_386
+    21300774: background cueva 1_387
+    21300776: background cueva 1_388
+    21300778: background cueva 1_389
+    21300780: background cueva 1_390
+    21300782: background cueva 1_391
+    21300784: background cueva 1_392
+    21300786: background cueva 1_393
+    21300788: background cueva 1_394
+    21300790: background cueva 1_395
+    21300792: background cueva 1_396
+    21300794: background cueva 1_397
+    21300796: background cueva 1_398
+    21300798: background cueva 1_399
+    21300800: background cueva 1_400
+    21300802: background cueva 1_401
+    21300804: background cueva 1_402
+    21300806: background cueva 1_403
+    21300808: background cueva 1_404
+    21300810: background cueva 1_405
+    21300812: background cueva 1_406
+    21300814: background cueva 1_407
+    21300816: background cueva 1_408
+    21300818: background cueva 1_409
+    21300820: background cueva 1_410
+    21300822: background cueva 1_411
+    21300824: background cueva 1_412
+    21300826: background cueva 1_413
+    21300828: background cueva 1_414
+    21300830: background cueva 1_415
+    21300832: background cueva 1_416
+    21300834: background cueva 1_417
+    21300836: background cueva 1_418
+    21300838: background cueva 1_419
+    21300840: background cueva 1_420
+    21300842: background cueva 1_421
+    21300844: background cueva 1_422
+    21300846: background cueva 1_423
+    21300848: background cueva 1_424
+    21300850: background cueva 1_425
+    21300852: background cueva 1_426
+    21300854: background cueva 1_427
+    21300856: background cueva 1_428
+    21300858: background cueva 1_429
+    21300860: background cueva 1_430
+    21300862: background cueva 1_431
+    21300864: background cueva 1_432
+    21300866: background cueva 1_433
+    21300868: background cueva 1_434
+    21300870: background cueva 1_435
+    21300872: background cueva 1_436
+    21300874: background cueva 1_437
+    21300876: background cueva 1_438
+    21300878: background cueva 1_439
+    21300880: background cueva 1_440
+    21300882: background cueva 1_441
+    21300884: background cueva 1_442
+    21300886: background cueva 1_443
+    21300888: background cueva 1_444
+    21300890: background cueva 1_445
+    21300892: background cueva 1_446
+    21300894: background cueva 1_447
+    21300896: background cueva 1_448
+    21300898: background cueva 1_449
+    21300900: background cueva 1_450
+    21300902: background cueva 1_451
+    21300904: background cueva 1_452
+    21300906: background cueva 1_453
+    21300908: background cueva 1_454
+    21300910: background cueva 1_455
+    21300912: background cueva 1_456
+    21300914: background cueva 1_457
+    21300916: background cueva 1_458
+    21300918: background cueva 1_459
+    21300920: background cueva 1_460
+    21300922: background cueva 1_461
+    21300924: background cueva 1_462
+    21300926: background cueva 1_463
+    21300928: background cueva 1_464
+    21300930: background cueva 1_465
+    21300932: background cueva 1_466
+    21300934: background cueva 1_467
+    21300936: background cueva 1_468
+    21300938: background cueva 1_469
+    21300940: background cueva 1_470
+    21300942: background cueva 1_471
+    21300944: background cueva 1_472
+    21300946: background cueva 1_473
+    21300948: background cueva 1_474
+    21300950: background cueva 1_475
+    21300952: background cueva 1_476
+    21300954: background cueva 1_477
+    21300956: background cueva 1_478
+    21300958: background cueva 1_479
+    21300960: background cueva 1_480
+    21300962: background cueva 1_481
+    21300964: background cueva 1_482
+    21300966: background cueva 1_483
+    21300968: background cueva 1_484
+    21300970: background cueva 1_485
+    21300972: background cueva 1_486
+    21300974: background cueva 1_487
+    21300976: background cueva 1_488
+    21300978: background cueva 1_489
+    21300980: background cueva 1_490
+    21300982: background cueva 1_491
+    21300984: background cueva 1_492
+    21300986: background cueva 1_493
+    21300988: background cueva 1_494
+    21300990: background cueva 1_495
+    21300992: background cueva 1_496
+    21300994: background cueva 1_497
+    21300996: background cueva 1_498
+    21300998: background cueva 1_499
+    21301000: background cueva 1_500
+    21301002: background cueva 1_501
+    21301004: background cueva 1_502
+    21301006: background cueva 1_503
+    21301008: background cueva 1_504
+    21301010: background cueva 1_505
+    21301012: background cueva 1_506
+    21301014: background cueva 1_507
+    21301016: background cueva 1_508
+    21301018: background cueva 1_509
+    21301020: background cueva 1_510
+    21301022: background cueva 1_511
+    21301024: background cueva 1_512
+    21301026: background cueva 1_513
+    21301028: background cueva 1_514
+    21301030: background cueva 1_515
+    21301032: background cueva 1_516
+    21301034: background cueva 1_517
+    21301036: background cueva 1_518
+    21301038: background cueva 1_519
+    21301040: background cueva 1_520
+    21301042: background cueva 1_521
+    21301044: background cueva 1_522
+    21301046: background cueva 1_523
+    21301048: background cueva 1_524
+    21301050: background cueva 1_525
+    21301052: background cueva 1_526
+    21301054: background cueva 1_527
+    21301056: background cueva 1_528
+    21301058: background cueva 1_529
+    21301060: background cueva 1_530
+    21301062: background cueva 1_531
+    21301064: background cueva 1_532
+    21301066: background cueva 1_533
+    21301068: background cueva 1_534
+    21301070: background cueva 1_535
+    21301072: background cueva 1_536
+    21301074: background cueva 1_537
+    21301076: background cueva 1_538
+    21301078: background cueva 1_539
+    21301080: background cueva 1_540
+    21301082: background cueva 1_541
+    21301084: background cueva 1_542
+    21301086: background cueva 1_543
+    21301088: background cueva 1_544
+    21301090: background cueva 1_545
+    21301092: background cueva 1_546
+    21301094: background cueva 1_547
+    21301096: background cueva 1_548
+    21301098: background cueva 1_549
+    21301100: background cueva 1_550
+    21301102: background cueva 1_551
+    21301104: background cueva 1_552
+    21301106: background cueva 1_553
+    21301108: background cueva 1_554
+    21301110: background cueva 1_555
+    21301112: background cueva 1_556
+    21301114: background cueva 1_557
+    21301116: background cueva 1_558
+    21301118: background cueva 1_559
+    21301120: background cueva 1_560
+    21301122: background cueva 1_561
+    21301124: background cueva 1_562
+    21301126: background cueva 1_563
+    21301128: background cueva 1_564
+    21301130: background cueva 1_565
+    21301132: background cueva 1_566
+    21301134: background cueva 1_567
+    21301136: background cueva 1_568
+    21301138: background cueva 1_569
+    21301140: background cueva 1_570
+    21301142: background cueva 1_571
+    21301144: background cueva 1_572
+    21301146: background cueva 1_573
+    21301148: background cueva 1_574
+    21301150: background cueva 1_575
+    21301152: background cueva 1_576
+    21301154: background cueva 1_577
+    21301156: background cueva 1_578
+    21301158: background cueva 1_579
+    21301160: background cueva 1_580
+    21301162: background cueva 1_581
+    21301164: background cueva 1_582
+    21301166: background cueva 1_583
+    21301168: background cueva 1_584
+    21301170: background cueva 1_585
+    21301172: background cueva 1_586
+    21301174: background cueva 1_587
+    21301176: background cueva 1_588
+    21301178: background cueva 1_589
+    21301180: background cueva 1_590
+    21301182: background cueva 1_591
+    21301184: background cueva 1_592
+    21301186: background cueva 1_593
+    21301188: background cueva 1_594
+    21301190: background cueva 1_595
+    21301192: background cueva 1_596
+    21301194: background cueva 1_597
+    21301196: background cueva 1_598
+    21301198: background cueva 1_599
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: 2
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 215
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: background cueva 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1785
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4412163c822997347b2c9e5b95970a84
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_1
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 1785
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e3109d8664c6e42a8935e847296d5f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_2
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1785
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7975c8768c47dfd40a695765255be7aa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_3
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 1785
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b629e98fb940b3145859cf6934b8f947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_4
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1785
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee9cd5b6105c35543ac4ea784cfa7859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_5
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 1785
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb0cdda73872ca749b2e28d56f87953e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_6
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1785
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e0e2c571c827904cb424285962028a4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_7
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 1785
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfd8309425b80534a8b4e3219eba7b86
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_8
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1785
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04e97cf3f20e2a748a7c41fafc95ecd5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1650
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63cdd600c6b56c14ca4893ddac3dc8a9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_10
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 1650
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09dd710be8acdbf4f9b1ece29970256d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_11
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1650
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0949bab3266af014ba19f4bbd879bbc4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_12
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 1650
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 412a0e59573334f44b07b134dd49245e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_13
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1650
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a19de249e4f33b941865d2706bd7eede
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_14
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 1650
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e780f7380960e34e903c89e4d7404fc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_15
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1650
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc9e8ee92c95a24d89145642946bdda
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_16
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 1650
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b98311519daa5de458248d44f0105896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_17
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1650
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e591fb465cbcbc3439e18f6576632365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1515
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d628a6a6a3b6f2479c4c2c9137feefa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_19
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 1515
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a791cf4917988aa4abbf847f7f294469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_20
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1515
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb4e16650c9e80741afe4fd1bffc1a33
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_21
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 1515
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d141dde24e9194f4aa12dec6e74a4d65
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_22
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1515
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed2ab7e17b8d912458933ec290d0b7d0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_23
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 1515
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd1fc7cdad5e94c4f8b6e92e34e66234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_24
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1515
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c8d0fd74444a264b8d8632892e82ed6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_25
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 1515
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae738b9d6a798e2439f99c91ab39e0ac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_26
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1515
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9841fa79ea5835a44a60ad8135741349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1380
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e94c8c9c8bf0d64fa6f0ef27518f983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_28
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 1380
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e44d4b240e08d947a3e3db49c5e4721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_29
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1380
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8434706abc015446aa2caf3d9a764f9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_30
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 1380
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 087a8fd6b0d48484fb4a9f94e114976a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_31
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1380
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4bde2c75a886a0459d310010c6b521a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_32
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 1380
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5affecdb6a19f3247a2c63838c112f0d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_33
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1380
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36303c0cde394654482081e11203b22f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_34
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 1380
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e90180161bc8764aa1ab2149a7c0139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_35
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1380
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8617c21daec27f946984f5f51880b8c1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1245
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8573396c7832a9240ab8d28e764e2d62
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_37
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 1245
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c5e76e873fc6a46837b9cee2142ab8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_38
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1245
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38e19fa9a9e786c49b48f7fec6557858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_39
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 1245
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f09398cdbccc5845aa5712a84bfa0c2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_40
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1245
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91917d9046269bf4e9383874bf711719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_41
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 1245
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 145c76211bb60164ebb62c2601ae7900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_42
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1245
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0707843165dd98647b7cfa8e712ecd00
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_43
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 1245
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc7a8ec0567ad964a96f2e67fb82abd1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_44
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1245
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e89acde25d72d41a6840d798dae825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1110
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a26225b62fb5d54c877cc56119a3097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_46
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 1110
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3c1de444eed4a048af183979079fc60
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_47
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1110
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35748aa26dc43b84e9c765ee1d202b17
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_48
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 1110
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 178ae12ecdcc90b46b7b028e6a0f20a0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_49
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1110
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94071eebf034966468ed80eecbc45a37
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_50
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 1110
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57152f8247926c54788c28278860cab8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_51
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1110
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ee2dc01852fb643b74cfaddbc314a4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_52
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 1110
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2593bd60ae089b43acdb48673a320a7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_53
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1110
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31b4403beb36b984587962f9edc98a59
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 975
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07a7248635472c54793afa8066b7c8c3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_55
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 975
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de85fbaae6ef0f648a1c1fb60614b5f3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_56
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 975
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 452d88c863b022144b0fbb791907f244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_57
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 975
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45c9a67fbccbe8042bb00c4d4054861f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_58
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 975
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0618eb505f98ecb498b57eb1f1d2cf9b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_59
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 975
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a51972478726e841a01a653d4847366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_60
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 975
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65e45ceae708fca4ca09da07bbbdae6c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_61
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 975
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08b65599242768640a2cf59fb2433e2e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_62
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 975
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87a5e1213465d1a4783107843ee6f9b8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 840
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0380fde790245044b81ab11b3dfea8c6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_64
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 840
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d528888230276b24088467a712b79904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_65
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 840
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbda7b5f51742c048b94c31137f985ed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_66
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 840
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2f39fc5e8f21d14d96877fa145e8f8b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_67
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 840
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6d24a379ba16874896d4d95c2974bbb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_68
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 840
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17a049b9ba99b0247ad80c11350fa81b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_69
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 840
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ba67e1f39c03424787797af2bbbc5c5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_70
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 840
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3d0c2644c4332947a99cbd1a3f9eb1c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_71
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 840
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d303b20c79b631428dd7eeae4b963fd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 705
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b904a652f1bc3547bd844e47b1b7add
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_73
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 705
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b887217b3cd8f245b8cf5261ff63ec9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_74
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 705
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2b9e191d18f38744aafc37df0c1b28b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_75
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 705
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d7ab9317fd6ea740b4ac5034bf53df6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_76
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 705
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7dc205af47640b459eb0c4600cc4f0f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_77
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 705
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2673a186c93d26041aa76aaa41b3fa0f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_78
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 705
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 760d4287850e47e42911e4ada1a3529f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_79
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 705
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd9a4d201ecf3ce419277a28b15065c0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_80
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 705
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a385fde94da03f4b92c94962b8d46a5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_81
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 570
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88f1a6f95b8e82842967987c5123064e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_82
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 570
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b4f1518fcf106e44ae4d2a04c795da1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_83
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 570
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75acf18ad227f184cbf687a6c915467e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_84
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 570
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dfbf07232592194da2556db1303496a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_85
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 570
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73bb4742aa6bb984498596949b47b417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_86
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 570
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d899ee8e736a81d4dadfa8dabcb4becb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_87
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 570
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b2a87d56cf1244c95cf1a4f115983f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_88
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 570
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f777fb6b303b8d49b3b22228060db28
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_89
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 570
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6bfdb1b50fb2f94e816c6b9a850f47b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 435
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 710e3ef338e7a4348ab6bdc922895cdb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_91
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 435
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a86a22cf88bdb2d4bb1ab09774bf05d5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_92
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 435
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad4631e3669a3da4a8dc448dc7693b00
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_93
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 435
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b321c0557e78804f987b34f09c3c4a7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_94
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 435
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49f240914d2a7c04db70e353c3232bdf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_95
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 435
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 240a8e4542a9905448dbc3d6e75f884f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_96
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 435
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d43af3440eca6d74f897a6e8f45b8fc3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_97
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 435
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea2dccd11936cb40badbcd643ca3268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_98
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 435
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7201d09319fdc4c42b1c43a8a1b19283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_99
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69cbaade070f5e541a7f980bcb048d33
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_100
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 300
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f58d230c6d417439cd3177e3b0a0fd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_101
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 300
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bacc3a06f27f5a449e8344af9c05613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_102
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 300
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b0086e70c9e2d49a3ba36dff8d2111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_103
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 300
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 185b20bed7958de42b13871248d3b1f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_104
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 300
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19da267682650ad4a8c4364ff019aa5b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_105
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 300
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 176c766a288c43b45b4b180679a6f1ce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_106
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 300
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f4dc5da2e603ee408e255f05874edb6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_107
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 300
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51b730fde07e4b84ea7d99b56bb6396e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 165
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebe4a7533f675074f9ba6986ba7a01ce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_109
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 165
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c05fd1024e5a7ee4089f80b1ed7a2ffd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_110
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 165
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bd1e8fa20a7a5b44ad1ff1992447b44
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_111
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 165
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9d10979a9de69b49bc9a49c6c9f1b3a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_112
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 165
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 726eeae2b41808840ad8eb8d2cba688d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_113
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 165
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a877c3988cadb554faa0afdfb120aa44
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_114
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 165
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4d29b55a823e6348996cee3b801c95c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_115
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 165
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5680f009260c00f4a9b6ddb0744db69e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_116
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 165
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a2d87871ed806e458ae13613be8e1e3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_117
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 30
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a001e8cfe3149043bf9e8be7623efbf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_118
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 30
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2932e0c2badae084bb27489d5d678981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_119
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 30
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a2271a569b8d7447819501b85d25744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_120
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 30
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20bab32aa696a20408d2ee5499804d31
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_121
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 30
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c2f9b92eb6d65b4692fc30b8b558b77
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_122
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 30
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9da711c7963339341b18dbec81893ff3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_123
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 30
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9d81e18ffac3f54c9f7f11ab3c2b6fc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_124
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 30
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ec8bf2544136064f864153e1315f054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background cueva 1_125
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 30
+        width: 135
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 498d2874dfa53ce49bd348aa4a59834f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: a3d97a48f368b734891d9cfc446fbd6d
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
