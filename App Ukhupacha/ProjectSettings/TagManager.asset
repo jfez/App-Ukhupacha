@@ -8,6 +8,8 @@ TagManager:
   - Wall
   - Death
   - Rope
+  - JumpDeath
+  - Exit
   layers:
   - Default
   - TransparentFX

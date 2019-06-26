@@ -43,6 +43,7 @@ public class sureReset : MonoBehaviour
         buttonSprite.sprite = notHold;
         canvasExit.SetActive(true);
         detector.inMenu = true;
+        Time.timeScale = 0.0f;
         
 
     }

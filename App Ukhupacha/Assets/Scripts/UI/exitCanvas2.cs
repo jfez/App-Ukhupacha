@@ -44,6 +44,7 @@ public class exitCanvas2 : MonoBehaviour
         buttonSprite.sprite = notHold;
         canvasExit.SetActive(false);
         detector.inMenu = false;
+        Time.timeScale = 1.0f;
         
 
     }

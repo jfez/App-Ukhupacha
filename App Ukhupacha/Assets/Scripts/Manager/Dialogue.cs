@@ -11,6 +11,7 @@ public class Dialogue : MonoBehaviour
     public Text timeText;
     public GameObject hudCanvas;
     public GameObject exitCanvas;
+    public GameObject[] scientists;
 
     private List<string> frases;
     private int index;
@@ -19,6 +20,12 @@ public class Dialogue : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
+        foreach (GameObject scientist in scientists)
+        {
+            scientist.SetActive(false);
+        }
+
         index = -1;
 
         frases = new List<string>();
@@ -78,6 +85,10 @@ public class Dialogue : MonoBehaviour
             timeText.enabled = false;
 
             //ACTIVAR A LOS CIENTÍFICOS
+            foreach (GameObject scientist in scientists)
+            {
+                scientist.SetActive(true);
+            }
 
             Destroy(this);
         }

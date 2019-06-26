@@ -7,17 +7,20 @@ public class Movement : MonoBehaviour
     public bool dead;
     public GameObject canvasDead;
     public Exit exit;
+    public Win win;
+
     private float vertSpeed;
 
     private float speed;             
     private Vector2 movement;
     private int dir;
     private bool hold;
+    private float maxVertSpeed;
 
     // Start is called before the first frame update
     void Start()
     {
-        speed = 2f;
+        speed = 0.7f;
         
         movement = new Vector2(1, 0);
         dir = 1;
@@ -25,11 +28,14 @@ public class Movement : MonoBehaviour
         canvasDead.SetActive(false);
         hold = false;
         vertSpeed = 1f;
+        maxVertSpeed = -5f;
     }
 
     // Update is called once per frame
     void Update()
     {
+
+        
 
         if (!hold)
         {
@@ -55,14 +61,7 @@ public class Movement : MonoBehaviour
             
         }
 
-        if (collision.gameObject.tag == "Ground")
-        {
-            if (hold)
-            {
-                hold = false;
-            }
-
-        }
+        
     }
 
     void OnTriggerEnter2D(Collider2D col)
@@ -84,5 +83,35 @@ public class Movement : MonoBehaviour
             
 
         }
+
+        if (col.gameObject.tag == "JumpDeath")
+        {
+            if (GetComponent<Rigidbody2D>().velocity.y < maxVertSpeed)
+            {
+                canvasDead.SetActive(true);
+                dead = true;
+                exit.dead = true;
+                Time.timeScale = 0.0f;
+            }
+
+            else
+            {
+                if (hold)
+                {
+                    hold = false;
+                }
+            }
+
+
+        }
+
+        if (col.gameObject.tag == "Exit")
+        {
+            win.scientistsCount++;
+
+
+        }
+
+
     }
 }
