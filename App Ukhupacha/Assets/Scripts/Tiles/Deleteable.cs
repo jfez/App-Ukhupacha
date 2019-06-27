@@ -12,12 +12,6 @@ public class Deleteable : MonoBehaviour
 
     Vector3Int position;
 
-    void Start()
-    {
-        
-    }
-
-
     private void OnMouseDown()
     {
         position = detector.GetPositionInt();

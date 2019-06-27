@@ -19,10 +19,7 @@ public class Detector : MonoBehaviour
     public Sprite blockerSprite;
     public Sprite ropeSprite;
     public Sprite zipSprite;
-
-    public Sprite blockerSprite2;
-    public Sprite ropeSprite2;
-    public Sprite zipSprite2;
+    public Sprite lightSprite;
 
     Transform[] canvasChildren;
 
@@ -73,6 +70,7 @@ public class Detector : MonoBehaviour
                     coordinate = grid.WorldToCell(mouseWorldPos);
                     inputTile = (Tile)inputTilemap.GetTile(coordinate);
                     outputTile = (Tile)outputTilemap.GetTile(coordinate);
+
                     if (inputTile == null)
                     {
                         EnableCanvases();
@@ -80,14 +78,61 @@ public class Detector : MonoBehaviour
                         canvasChildren[2].transform.gameObject.SetActive(false);
                         canvasChildren[3].transform.gameObject.SetActive(false);
                         canvasChildren[4].transform.gameObject.SetActive(false);
+                        canvasChildren[5].transform.gameObject.SetActive(false);
                         AdjustCanvases();
                     }
-                    else if (outputTile != null) {
+                    else if (outputTile != null)
+                    {
+                        if (outputTile.sprite != blockerSprite)
+                        {
+                            EnableCanvases();
+                            canvasChildren[1].transform.gameObject.SetActive(false);
+                            canvasChildren[2].transform.gameObject.SetActive(false);
+                            canvasChildren[3].transform.gameObject.SetActive(false);
+                            canvasChildren[4].transform.gameObject.SetActive(false);
+                            canvasChildren[5].transform.gameObject.SetActive(false);
+                            AdjustCanvases();
+                        }
+                        else
+                        {
+                            EnableCanvases();
+                            canvasChildren[1].transform.gameObject.SetActive(false);
+                            canvasChildren[2].transform.gameObject.SetActive(false);
+                            canvasChildren[3].transform.gameObject.SetActive(false);
+                            canvasChildren[4].transform.gameObject.SetActive(false);
+                            canvasChildren[5].transform.gameObject.SetActive(true);
+                            AdjustCanvases();
+                        }
+
+                    }
+                    else if (inputTile.sprite == lightSprite)
+                    {
+                        EnableCanvases();
+                        canvasChildren[1].transform.gameObject.SetActive(true);
+                        canvasChildren[2].transform.gameObject.SetActive(false);
+                        canvasChildren[3].transform.gameObject.SetActive(false);
+                        canvasChildren[4].transform.gameObject.SetActive(false);
+                        canvasChildren[5].transform.gameObject.SetActive(false);
+                        AdjustCanvases();
+                    }
+                    else if (inputTile.sprite == ropeSprite)
+                    {
+                        EnableCanvases();
+                        canvasChildren[1].transform.gameObject.SetActive(false);
+                        canvasChildren[2].transform.gameObject.SetActive(true);
+                        canvasChildren[3].transform.gameObject.SetActive(false);
+                        canvasChildren[4].transform.gameObject.SetActive(false);
+                        canvasChildren[5].transform.gameObject.SetActive(false);
+                        AdjustCanvases();
+                    }
+                    else if (inputTile.sprite == zipSprite)
+                    {
                         EnableCanvases();
                         canvasChildren[1].transform.gameObject.SetActive(false);
                         canvasChildren[2].transform.gameObject.SetActive(false);
-                        canvasChildren[3].transform.gameObject.SetActive(false);
-                        canvasChildren[4].transform.gameObject.SetActive(true);
+                        canvasChildren[3].transform.gameObject.SetActive(true);
+                        canvasChildren[4].transform.gameObject.SetActive(false);
+                        canvasChildren[5].transform.gameObject.SetActive(false);
                         AdjustCanvases();
                     }
                     else if (inputTile.sprite == blockerSprite)
@@ -95,26 +140,9 @@ public class Detector : MonoBehaviour
                         EnableCanvases();
                         canvasChildren[1].transform.gameObject.SetActive(false);
                         canvasChildren[2].gameObject.SetActive(false);
-                        canvasChildren[3].transform.gameObject.SetActive(true);
-                        canvasChildren[4].transform.gameObject.SetActive(false);
-                        AdjustCanvases();
-                    }
-                    else if (inputTile.sprite == zipSprite)
-                    {
-                        EnableCanvases();
-                        canvasChildren[1].transform.gameObject.SetActive(false);
-                        canvasChildren[2].transform.gameObject.SetActive(true);
                         canvasChildren[3].transform.gameObject.SetActive(false);
-                        canvasChildren[4].transform.gameObject.SetActive(false);
-                        AdjustCanvases();
-                    }
-                    else
-                    {
-                        EnableCanvases();
-                        canvasChildren[1].transform.gameObject.SetActive(true);
-                        canvasChildren[2].transform.gameObject.SetActive(false);
-                        canvasChildren[3].transform.gameObject.SetActive(false);
-                        canvasChildren[4].transform.gameObject.SetActive(false);
+                        canvasChildren[4].transform.gameObject.SetActive(true);
+                        canvasChildren[5].transform.gameObject.SetActive(false);
                         AdjustCanvases();
                     }
 

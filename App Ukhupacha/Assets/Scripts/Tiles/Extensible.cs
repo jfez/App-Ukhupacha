@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Extensible : MonoBehaviour
 {
+    public float unwrapTime = 0.75f;
 
     SpriteRenderer[] childObjects;
     int iterator = 0;
@@ -16,7 +17,7 @@ public class Extensible : MonoBehaviour
         {
             childObjects[i].gameObject.SetActive(false);
         }
-        InvokeRepeating("showPart", 0f, 1.0f);
+        InvokeRepeating("showPart", 0f, unwrapTime);
     }
 
     void showPart()
