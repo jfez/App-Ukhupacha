@@ -7,6 +7,7 @@ public class InitialMenu : MonoBehaviour
 {
     public Sprite hold;
     public Sprite notHold;
+    
 
     private SpriteRenderer buttonSprite;
 
@@ -41,6 +42,7 @@ public class InitialMenu : MonoBehaviour
 
     void OnMouseUpAsButton()
     {
+        
         SceneManager.LoadScene("Init");
     }
 }

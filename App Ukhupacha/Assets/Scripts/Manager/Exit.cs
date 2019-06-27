@@ -10,6 +10,7 @@ public class Exit : MonoBehaviour
     public GameObject canvasSure1;
     public GameObject canvasSure2;
     public Win win;
+    public AudioSource sound;
 
 
 
@@ -37,6 +38,7 @@ public class Exit : MonoBehaviour
                 Time.timeScale = 0.0f;
                 paused = true;
                 detector.inMenu = true;
+                sound.Play();
             }
 
             
@@ -51,6 +53,7 @@ public class Exit : MonoBehaviour
                 Time.timeScale = 1.0f;
                 paused = false;
                 detector.inMenu = false;
+                sound.Play();
             }
 
                 

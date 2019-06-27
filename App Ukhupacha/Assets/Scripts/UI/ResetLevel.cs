@@ -11,6 +11,7 @@ public class ResetLevel : MonoBehaviour
     private SpriteRenderer buttonSprite;
 
     private BoxCollider2D col;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -21,6 +22,7 @@ public class ResetLevel : MonoBehaviour
         col = GetComponent<BoxCollider2D>();
         col.isTrigger = true;
         //col.size = new Vector2(15.1f, 15.1f);
+        
     }
 
     // Update is called once per frame
@@ -41,6 +43,7 @@ public class ResetLevel : MonoBehaviour
 
     void OnMouseUpAsButton()
     {
+        
         SceneManager.LoadScene("Play");
         Time.timeScale = 1.0f;
     }

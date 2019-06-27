@@ -12,6 +12,7 @@ public class Win : MonoBehaviour
     private AudioSource victory;
     
     
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -32,6 +33,8 @@ public class Win : MonoBehaviour
             Time.timeScale = 0.0f;
 
             win = true;
+
+
         }
     }
 }

@@ -13,6 +13,7 @@ public class ExitMenu : MonoBehaviour
     private SpriteRenderer buttonSprite;
 
     private BoxCollider2D col;
+    public AudioSource sound;
 
     // Start is called before the first frame update
     void Start()
@@ -23,6 +24,7 @@ public class ExitMenu : MonoBehaviour
         col = GetComponent<BoxCollider2D>();
         col.isTrigger = true;
         //col.size = new Vector2(15.1f, 15.1f);
+        
     }
 
     // Update is called once per frame
@@ -44,6 +46,7 @@ public class ExitMenu : MonoBehaviour
     void OnMouseUpAsButton()
     {
         buttonSprite.sprite = notHold;
+        sound.Play();
         canvasMenu.SetActive(false);
         Time.timeScale = 1.0f;
         exitScript.paused = false;

@@ -12,6 +12,7 @@ public class exitCanvas2 : MonoBehaviour
 
     private SpriteRenderer buttonSprite;
     private BoxCollider2D col;
+    public AudioSource sound;
 
     // Start is called before the first frame update
     void Start()
@@ -20,6 +21,7 @@ public class exitCanvas2 : MonoBehaviour
         buttonSprite.sprite = notHold;
         col = GetComponent<BoxCollider2D>();
         col.isTrigger = true;
+        
 
     }
 
@@ -42,6 +44,7 @@ public class exitCanvas2 : MonoBehaviour
     void OnMouseUpAsButton()
     {
         buttonSprite.sprite = notHold;
+        sound.Play();
         canvasExit.SetActive(false);
         detector.inMenu = false;
         Time.timeScale = 1.0f;

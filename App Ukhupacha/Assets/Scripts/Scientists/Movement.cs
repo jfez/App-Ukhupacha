@@ -11,6 +11,7 @@ public class Movement : MonoBehaviour
     public AudioClip death;
     public AudioClip roping;
     public AudioClip tirolina;
+    public AudioClip portal;
 
     public GameObject init;
     public GameObject end;
@@ -142,6 +143,8 @@ public class Movement : MonoBehaviour
         if (col.gameObject.tag == "Exit")
         {
             win.scientistsCount++;
+            sound.clip = portal;
+            sound.Play();
 
 
         }

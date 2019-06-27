@@ -8,7 +8,15 @@ public class Deleteable : MonoBehaviour
     public Detector detector;
     public Tilemap outputTilemap;
 
+    public AudioSource sound;
+
     Vector3Int position;
+
+    void Start()
+    {
+        
+    }
+
 
     private void OnMouseDown()
     {
@@ -22,6 +30,7 @@ public class Deleteable : MonoBehaviour
         if (hit.collider != null)
         {
             Destroy(hit.transform.gameObject);
+            sound.Play();
         }
     }
 }

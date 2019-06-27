@@ -11,6 +11,7 @@ public class sureReset : MonoBehaviour
 
     private SpriteRenderer buttonSprite;
     private BoxCollider2D col;
+    private AudioSource sound;
 
     // Start is called before the first frame update
     void Start()
@@ -20,6 +21,7 @@ public class sureReset : MonoBehaviour
         col = GetComponent<BoxCollider2D>();
         col.isTrigger = true;
         canvasExit.SetActive(false);
+        sound = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -27,6 +29,8 @@ public class sureReset : MonoBehaviour
     {
 
     }
+
+    
 
     void OnMouseDrag()
     {
@@ -41,6 +45,7 @@ public class sureReset : MonoBehaviour
     void OnMouseUpAsButton()
     {
         buttonSprite.sprite = notHold;
+        sound.Play();
         canvasExit.SetActive(true);
         detector.inMenu = true;
         Time.timeScale = 0.0f;

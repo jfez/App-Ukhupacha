@@ -8,6 +8,7 @@ public class sureExit : MonoBehaviour
     public Sprite notHold;
     public GameObject canvasExit;
     public GameObject canvasHUD;
+    public AudioSource sound;
 
     private SpriteRenderer buttonSprite;
     private BoxCollider2D col;
@@ -41,6 +42,7 @@ public class sureExit : MonoBehaviour
     void OnMouseUpAsButton()
     {
         buttonSprite.sprite = notHold;
+        sound.Play();
         canvasExit.SetActive(true);
         canvasHUD.SetActive(false);
 
