@@ -6,6 +6,7 @@ public class Movement : MonoBehaviour
 {
     public bool dead;
     public GameObject canvasDead;
+    public Animator anim;
     public Exit exit;
     public Win win;
     public AudioClip death;
@@ -72,6 +73,7 @@ public class Movement : MonoBehaviour
 
         if (inTirolina)
         {
+            // REVISAR
             float fixedSpeed = speedTirolina * Time.deltaTime;
             transform.position = Vector3.MoveTowards(transform.position, end.transform.position, fixedSpeed);
         }
@@ -85,10 +87,14 @@ public class Movement : MonoBehaviour
         if (collision.gameObject.tag == "Wall")
         {
             dir = dir * -1;
-            transform.localScale = new Vector3(transform.localScale.x * -1, transform.localScale.y, transform.localScale.z);
+            // REVISAR --> transform.localScale = new Vector3(transform.localScale.x * -1, transform.localScale.y, transform.localScale.z);
             
         }
 
+        if (collision.gameObject.tag == "Ground")
+        {
+            anim.SetTrigger("inGround");
+        }
         
     }
 
@@ -109,7 +115,7 @@ public class Movement : MonoBehaviour
         if (col.gameObject.tag == "Rope" && !hold)
         {
             //GetComponent<Rigidbody2D>().gravityScale = 0.1f;
-            
+            anim.SetTrigger("inRope");
             hold = true;
             sound.clip = roping;
             sound.Play();
@@ -156,6 +162,8 @@ public class Movement : MonoBehaviour
             inTirolina = true;
 
             rb2d.isKinematic = true;
+
+            anim.SetTrigger("inZip");
 
             sound.clip = tirolina;
             sound.Play();
