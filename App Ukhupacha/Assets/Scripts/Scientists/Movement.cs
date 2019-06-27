@@ -8,6 +8,12 @@ public class Movement : MonoBehaviour
     public GameObject canvasDead;
     public Exit exit;
     public Win win;
+    public AudioClip death;
+    public AudioClip roping;
+    public AudioClip tirolina;
+
+    public GameObject init;
+    public GameObject end;
 
     private float vertSpeed;
 
@@ -16,19 +22,27 @@ public class Movement : MonoBehaviour
     private int dir;
     private bool hold;
     private float maxVertSpeed;
+    private AudioSource sound;
+    private float speedTirolina;
+    private Rigidbody2D rb2d;
+    private bool inTirolina;
 
     // Start is called before the first frame update
     void Start()
     {
-        speed = 0.7f;
+        speed = 0.4f;
+        speedTirolina = 0.5f;
         
         movement = new Vector2(1, 0);
         dir = 1;
         dead = false;
         canvasDead.SetActive(false);
         hold = false;
-        vertSpeed = 1f;
+        vertSpeed = 0.5f;
         maxVertSpeed = -5f;
+        sound = GetComponent<AudioSource>();
+        rb2d = GetComponent<Rigidbody2D>();
+        inTirolina = false;
     }
 
     // Update is called once per frame
@@ -52,6 +66,19 @@ public class Movement : MonoBehaviour
 
     }
 
+    void FixedUpdate()
+    {
+
+        if (inTirolina)
+        {
+            float fixedSpeed = speedTirolina * Time.deltaTime;
+            transform.position = Vector3.MoveTowards(transform.position, end.transform.position, fixedSpeed);
+        }
+
+        
+        
+    }
+
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Wall")
@@ -71,16 +98,21 @@ public class Movement : MonoBehaviour
             canvasDead.SetActive(true);
             dead = true;
             exit.dead = true;
+            sound.clip = death;
+            sound.Play();
             Time.timeScale = 0.0f;
+            
 
         }
 
-        if (col.gameObject.tag == "Rope")
+        if (col.gameObject.tag == "Rope" && !hold)
         {
             //GetComponent<Rigidbody2D>().gravityScale = 0.1f;
             
             hold = true;
-            
+            sound.clip = roping;
+            sound.Play();
+
 
         }
 
@@ -91,6 +123,8 @@ public class Movement : MonoBehaviour
                 canvasDead.SetActive(true);
                 dead = true;
                 exit.dead = true;
+                sound.clip = death;
+                sound.Play();
                 Time.timeScale = 0.0f;
             }
 
@@ -111,6 +145,31 @@ public class Movement : MonoBehaviour
 
 
         }
+
+        if (col.gameObject.tag == "Tirolina")
+        {
+            transform.position.Set(transform.position.x, init.transform.position.y, transform.position.z); 
+
+            inTirolina = true;
+
+            rb2d.isKinematic = true;
+
+            sound.clip = tirolina;
+            sound.Play();
+
+
+
+        }
+
+        if (col.gameObject.tag == "EndTirolina")
+        {
+            inTirolina = false;
+            rb2d.isKinematic = false;
+
+            
+        }
+
+        
 
 
     }

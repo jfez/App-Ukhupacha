@@ -1017,14 +1017,14 @@ RectTransform:
   m_GameObject: {fileID: 2129843872}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 20, y: 20, z: 20}
+  m_LocalScale: {x: 58.382, y: 58.382, z: 58.382}
   m_Children: []
   m_Father: {fileID: 150204260}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -139}
+  m_AnchoredPosition: {x: 0, y: -172}
   m_SizeDelta: {x: 1, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!61 &2129843874
@@ -1044,7 +1044,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 5.12, y: 5.12}
+    oldSize: {x: 3.25, y: 2.51}
     newSize: {x: 5.12, y: 5.12}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1065,8 +1065,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d906ee4922dce924c89239f965562180, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hold: {fileID: 21300000, guid: 8f14d478d3c776b4196f9b844f01275f, type: 3}
-  notHold: {fileID: 21300000, guid: 08ed3af588e28ad4489ced06d74c89d0, type: 3}
+  hold: {fileID: 21300000, guid: a3e0b3a51b0473342be15c395b06875d, type: 3}
+  notHold: {fileID: 21300000, guid: abd01b09ccfcf5644a95e71eb36de3c2, type: 3}
   canvasExit: {fileID: 1064993627}
   canvasHUD: {fileID: 150204256}
 --- !u!212 &2129843876
@@ -1106,7 +1106,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 11
-  m_Sprite: {fileID: 21300000, guid: 08ed3af588e28ad4489ced06d74c89d0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: abd01b09ccfcf5644a95e71eb36de3c2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

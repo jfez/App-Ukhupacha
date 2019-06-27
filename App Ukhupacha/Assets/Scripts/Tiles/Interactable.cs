@@ -12,12 +12,21 @@ public class Interactable : MonoBehaviour
     public Canvas canvas;
     public Tile tile;
 
+    
+
     Vector3 position;
+
+    void Start()
+    {
+        
+    }
 
     private void OnMouseDown()
     {
         position = detector.GetPosition();
         Instantiate(prefab, position, prefab.transform.rotation);
+        
+        
 
         //tile = (Tile) ScriptableObject.CreateInstance("Tile");
         //tile.sprite = image.sprite;
