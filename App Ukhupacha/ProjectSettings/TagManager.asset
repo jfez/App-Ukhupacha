@@ -50,3 +50,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Joven
+    uniqueID: 2866622557
+    locked: 0
+  - name: Viejo
+    uniqueID: 4004378125
+    locked: 0

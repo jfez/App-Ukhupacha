@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae0543fe805424df99fe08ce744cbe49, type: 3}
+  m_Name: JovenPose
+  m_EditorClassIdentifier: 
+  m_PoseEntries:
+  - path: Bones/Cadera
+    localPosition: {x: -1.5553875, y: -1.2480211, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.70710677, w: 0.7071069}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/Cadera/Columna
+    localPosition: {x: 0.25000003, y: 0.000000014901161, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.000009468781, w: 1}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/Cadera/Columna/Cabeza
+    localPosition: {x: 1.1200193, y: 2.7296256e-12, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.0000000810621, w: 1}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/Cadera/Columna/BrazoIzq
+    localPosition: {x: 0.8673669, y: -0.41461554, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.90126085, w: 0.43327692}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/Cadera/Columna/BrazoIzq/AnteBrazoIzq
+    localPosition: {x: 0.47358358, y: 0.00000017881393, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.6452229, w: 0.7639944}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/Cadera/Columna/BrazoDch
+    localPosition: {x: 0.98670554, y: 0.6222489, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.9865738, w: 0.16331618}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/Cadera/Columna/BrazoDch/AnteBrazoDch
+    localPosition: {x: 0.68978286, y: -0.00000035762787, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.26156935, w: 0.9651847}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/Cadera/PiernaDch
+    localPosition: {x: -0.3269909, y: 0.2878065, z: 0}
+    localRotation: {x: 0, y: 0, z: 1, w: 0}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/Cadera/PiernaDch/PieDch
+    localPosition: {x: 0.3500002, y: 0, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.46087503, w: 0.88746506}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/Cadera/PiernaIzq
+    localPosition: {x: -0.25231886, y: -0.21166712, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.99999964, w: 0.0008307257}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Bones/Cadera/PiernaIzq/PieIzq
+    localPosition: {x: 0.35000044, y: 0, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.47168845, w: 0.8817653}
+    localScale: {x: 1, y: 1, z: 1}
