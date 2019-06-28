@@ -12,6 +12,8 @@ public class ShowMenu : MonoBehaviour
 
     public Detector detector;
 
+    public Dialogue dialogue;
+
     private SpriteRenderer buttonSprite;
 
     private BoxCollider2D col;
@@ -52,6 +54,14 @@ public class ShowMenu : MonoBehaviour
         buttonSprite.sprite = notHold;
         sound.Play();
         canvasMenu.SetActive(true);
+
+        
+
+        foreach (GameObject player in dialogue.scientists)
+        {
+            player.SetActive(false);
+        }
+
         Time.timeScale = 0.0f;
         exitScript.paused = true;
         detector.inMenu = true;

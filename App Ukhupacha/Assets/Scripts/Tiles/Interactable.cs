@@ -12,7 +12,20 @@ public class Interactable : MonoBehaviour
     public Canvas canvas;
     public Tile tile;
 
+    public Sprite hold;
+    public Sprite notHold;
+
+
+
+    private Image buttonSprite;
+
     Vector3 position;
+
+    void Start()
+    {
+        buttonSprite = GetComponent<Image>();
+        buttonSprite.sprite = notHold;
+    }
 
     private void OnMouseDown()
     {
@@ -20,4 +33,22 @@ public class Interactable : MonoBehaviour
         Instantiate(prefab, position, prefab.transform.rotation);
         detector.RefreshTile(tile);
     }
+
+    /*void OnMouseDrag()
+    {
+        buttonSprite.sprite = hold;
+    }
+
+    void OnMouseUp()
+    {
+        buttonSprite.sprite = notHold;
+    }
+
+    void OnMouseUpAsButton()
+    {
+        buttonSprite.sprite = notHold;
+        position = detector.GetPosition();
+        Instantiate(prefab, position, prefab.transform.rotation);
+        detector.RefreshTile(tile);
+    }*/
 }

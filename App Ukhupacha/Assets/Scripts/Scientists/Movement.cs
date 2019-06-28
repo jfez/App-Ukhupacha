@@ -9,13 +9,15 @@ public class Movement : MonoBehaviour
     public Animator anim;
     public Exit exit;
     public Win win;
-    public AudioClip death;
+    
     public AudioClip roping;
     public AudioClip tirolina;
-    public AudioClip portal;
+    public AudioSource portal;
+    public AudioSource lvlMusic;
+    public AudioSource death;
 
-    public GameObject init;
-    public GameObject end;
+    private GameObject init;
+    private GameObject end;
 
     private float vertSpeed;
 
@@ -33,7 +35,7 @@ public class Movement : MonoBehaviour
     void Start()
     {
         speed = 0.4f;
-        speedTirolina = 0.5f;
+        speedTirolina = 0.01f;
         
         movement = new Vector2(1, 0);
         dir = 1;
@@ -45,6 +47,8 @@ public class Movement : MonoBehaviour
         sound = GetComponent<AudioSource>();
         rb2d = GetComponent<Rigidbody2D>();
         inTirolina = false;
+
+        
     }
 
     // Update is called once per frame
@@ -89,6 +93,7 @@ public class Movement : MonoBehaviour
             dir = dir * -1;
             // REVISAR --> transform.localScale = new Vector3(transform.localScale.x * -1, transform.localScale.y, transform.localScale.z);
             
+            transform.GetChild(1).localScale = new Vector3(transform.GetChild(1).localScale.x * -1, transform.GetChild(1).localScale.y, transform.GetChild(1).localScale.z);
         }
 
         if (collision.gameObject.tag == "Ground")
@@ -105,8 +110,16 @@ public class Movement : MonoBehaviour
             canvasDead.SetActive(true);
             dead = true;
             exit.dead = true;
-            sound.clip = death;
-            sound.Play();
+            
+            death.Play();
+            GameObject[] players;
+            players = GameObject.FindGameObjectsWithTag("Player");
+
+            foreach (GameObject player in players)
+            {
+                Destroy(player.transform.GetChild(1).gameObject);
+            }
+            lvlMusic.Stop();
             Time.timeScale = 0.0f;
             
 
@@ -130,8 +143,17 @@ public class Movement : MonoBehaviour
                 canvasDead.SetActive(true);
                 dead = true;
                 exit.dead = true;
-                sound.clip = death;
-                sound.Play();
+
+                death.Play();
+                GameObject[] players;
+                players = GameObject.FindGameObjectsWithTag("Player");
+
+                foreach (GameObject player in players)
+                {
+                    Destroy(player);
+                }
+                lvlMusic.Stop();
+
                 Time.timeScale = 0.0f;
             }
 
@@ -149,14 +171,20 @@ public class Movement : MonoBehaviour
         if (col.gameObject.tag == "Exit")
         {
             win.scientistsCount++;
-            sound.clip = portal;
-            sound.Play();
+            gameObject.SetActive(false);
+            
+            portal.Play();
 
 
         }
 
         if (col.gameObject.tag == "Tirolina")
         {
+            init = GameObject.FindGameObjectWithTag("Tirolina");
+            end = GameObject.FindGameObjectWithTag("EndTirolina");
+
+            //Time.timeScale = 0.1f;
+
             transform.position.Set(transform.position.x, init.transform.position.y, transform.position.z); 
 
             inTirolina = true;
@@ -176,6 +204,7 @@ public class Movement : MonoBehaviour
         {
             inTirolina = false;
             rb2d.isKinematic = false;
+            print("exit tirolina");
 
             
         }

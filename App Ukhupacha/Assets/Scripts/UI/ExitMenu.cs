@@ -9,6 +9,7 @@ public class ExitMenu : MonoBehaviour
     public GameObject canvasMenu;
     public Exit exitScript;
     public Detector detector;
+    public Dialogue dialogue;
 
     private SpriteRenderer buttonSprite;
 
@@ -48,6 +49,14 @@ public class ExitMenu : MonoBehaviour
         buttonSprite.sprite = notHold;
         sound.Play();
         canvasMenu.SetActive(false);
+
+        
+
+        foreach (GameObject player in dialogue.scientists)
+        {
+            player.SetActive(true);
+        }
+
         Time.timeScale = 1.0f;
         exitScript.paused = false;
         detector.inMenu = false;

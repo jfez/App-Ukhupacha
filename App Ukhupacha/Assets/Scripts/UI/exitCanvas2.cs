@@ -8,6 +8,7 @@ public class exitCanvas2 : MonoBehaviour
     public Sprite notHold;
     public GameObject canvasExit;
     public Detector detector;
+    public Dialogue dialogue;
 
 
     private SpriteRenderer buttonSprite;
@@ -47,6 +48,14 @@ public class exitCanvas2 : MonoBehaviour
         sound.Play();
         canvasExit.SetActive(false);
         detector.inMenu = false;
+
+        
+
+        foreach (GameObject player in dialogue.scientists)
+        {
+            player.SetActive(true);
+        }
+
         Time.timeScale = 1.0f;
         
 

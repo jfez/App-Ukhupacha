@@ -8,6 +8,7 @@ public class sureReset : MonoBehaviour
     public Sprite notHold;
     public GameObject canvasExit;
     public Detector detector;
+    public Dialogue dialogue;
 
     private SpriteRenderer buttonSprite;
     private BoxCollider2D col;
@@ -48,7 +49,17 @@ public class sureReset : MonoBehaviour
         sound.Play();
         canvasExit.SetActive(true);
         detector.inMenu = true;
+
+        
+
+        foreach (GameObject player in dialogue.scientists)
+        {
+            player.SetActive(false);
+        }
+
+
         Time.timeScale = 0.0f;
+
         
 
     }

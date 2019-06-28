@@ -11,6 +11,8 @@ public class Exit : MonoBehaviour
     public GameObject canvasSure2;
     public Win win;
     public AudioSource sound;
+    public Dialogue dialogue;
+    
 
 
 
@@ -32,9 +34,15 @@ public class Exit : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape) && !paused && !dead)
         {
-            if (!canvasSure1.activeSelf && !canvasSure2.activeSelf && !win.win)
+            if (!canvasSure1.activeSelf && !canvasSure2.activeSelf && !win.win && dialogue.started)
             {
                 canvasMenu.SetActive(true);
+
+                foreach (GameObject player in dialogue.scientists)
+                {
+                    player.SetActive(false);
+                }
+
                 Time.timeScale = 0.0f;
                 paused = true;
                 detector.inMenu = true;
@@ -47,9 +55,15 @@ public class Exit : MonoBehaviour
 
         else if (Input.GetKeyDown(KeyCode.Escape) && paused)
         {
-            if (!canvasSure1.activeSelf && !canvasSure2.activeSelf & !win.win)
+            if (!canvasSure1.activeSelf && !canvasSure2.activeSelf & !win.win && dialogue.started)
             {
                 canvasMenu.SetActive(false);
+
+                foreach (GameObject player in dialogue.scientists)
+                {
+                    player.SetActive(true);
+                }
+
                 Time.timeScale = 1.0f;
                 paused = false;
                 detector.inMenu = false;

@@ -14,6 +14,7 @@ public class Dialogue : MonoBehaviour
     public GameObject[] scientists;
     public GameObject ukhuMan;
     public GameObject rockSpawner;
+    public bool started;
 
     private List<string> frases;
     private int index;
@@ -21,12 +22,15 @@ public class Dialogue : MonoBehaviour
     private Vector3 rot;
     private Vector3 pos;
     private Vector3 scl;
+    
 
     // Start is called before the first frame update
     void Start()
     {
 
         rockSpawner.SetActive(false);
+
+        started = false;
 
         foreach (GameObject scientist in scientists)
         {
@@ -110,7 +114,7 @@ public class Dialogue : MonoBehaviour
 
         }
 
-        if (index > 15)
+        if (index > 15 && !started)
         {
             time -= Time.deltaTime;
             if (msgText.enabled)
@@ -125,7 +129,7 @@ public class Dialogue : MonoBehaviour
             
         }
 
-        if (time <= 0)
+        if (time <= 0 && !started)
         {
             canvasDialogue.SetActive(false);
             canvasText.SetActive(false);
@@ -141,7 +145,9 @@ public class Dialogue : MonoBehaviour
 
             rockSpawner.SetActive(true);
 
-            Destroy(this);
+            started = true;
+
+            //Destroy(this);
         }
     }
 }

@@ -7,6 +7,7 @@ public class Win : MonoBehaviour
     public int scientistsCount;
     public GameObject canvasWin;
     public bool win;
+    public Dialogue dialogue;
 
     private int numberScientists;
     private AudioSource victory;
@@ -17,7 +18,7 @@ public class Win : MonoBehaviour
     void Start()
     {
         scientistsCount = 0;
-        numberScientists = 1;
+        numberScientists = 2;
         canvasWin.SetActive(false);
         victory = GetComponent<AudioSource>();
         win = false;
@@ -30,6 +31,14 @@ public class Win : MonoBehaviour
         {
             canvasWin.SetActive(true);
             victory.Play();
+
+            
+
+            foreach (GameObject player in dialogue.scientists)
+            {
+                player.SetActive(false);
+            }
+
             Time.timeScale = 0.0f;
 
             win = true;

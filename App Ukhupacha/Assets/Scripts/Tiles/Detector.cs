@@ -62,7 +62,7 @@ public class Detector : MonoBehaviour
                 return;
             }
 
-            if (dialogue == null)
+            if (dialogue.started == true)
             {
                 if (canClick && !inMenu)
                 {
