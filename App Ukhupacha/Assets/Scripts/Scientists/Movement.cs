@@ -16,6 +16,8 @@ public class Movement : MonoBehaviour
     public AudioSource lvlMusic;
     public AudioSource death;
 
+    public GameObject text1;
+
     private GameObject init;
     private GameObject end;
 
@@ -30,6 +32,8 @@ public class Movement : MonoBehaviour
     private float speedTirolina;
     private Rigidbody2D rb2d;
     private bool inTirolina;
+
+    private bool stop1;
 
     // Start is called before the first frame update
     void Start()
@@ -47,6 +51,9 @@ public class Movement : MonoBehaviour
         sound = GetComponent<AudioSource>();
         rb2d = GetComponent<Rigidbody2D>();
         inTirolina = false;
+
+        stop1 = false;
+        text1.SetActive(false);
 
         
     }
@@ -209,8 +216,13 @@ public class Movement : MonoBehaviour
             
         }
 
-        
+        if (col.gameObject.tag == "Stop1" && !stop1)
+        {
+            text1.SetActive(true);
+            stop1 = true;
+            Time.timeScale = 0.0f;
 
+        }
 
     }
 }

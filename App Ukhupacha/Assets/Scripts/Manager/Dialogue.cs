@@ -143,7 +143,7 @@ public class Dialogue : MonoBehaviour
                 scientist.SetActive(true);
             }
 
-            rockSpawner.SetActive(true);
+            //rockSpawner.SetActive(true);
 
             started = true;
 

@@ -13,6 +13,7 @@ TagManager:
   - DestroyRock
   - Tirolina
   - EndTirolina
+  - Stop1
   layers:
   - Default
   - TransparentFX
