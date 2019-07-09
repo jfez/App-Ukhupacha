@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 2138677392}
-  m_IndirectSpecularColor: {r: 0.28502697, g: 0.37139347, b: 0.49601266, a: 1}
+  m_IndirectSpecularColor: {r: 0.2850269, g: 0.3713935, b: 0.49601045, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1538,7 +1538,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefab: {fileID: 6163112790495860922, guid: ff9f163a6e5f34d479637d67421ed567, type: 3}
   detector: {fileID: 732539656}
-  canvas: {fileID: 387033137}
   tile: {fileID: 11400000, guid: 25b8a9336a5f62f42b96e3ec3c06317d, type: 2}
   hold: {fileID: 21300000, guid: d4e578506e2f0aa408ab78c1e2ee26ef, type: 3}
   notHold: {fileID: 21300000, guid: 713b7f2e8dc113646b65fc5e07a4c9a3, type: 3}
@@ -2166,6 +2165,15 @@ MonoBehaviour:
   portal: {fileID: 1550175759}
   lvlMusic: {fileID: 53070237}
   death: {fileID: 801923}
+  text1: {fileID: 0}
+  text2: {fileID: 0}
+  text3: {fileID: 0}
+  text4: {fileID: 0}
+  stop1: 0
+  stop2: 0
+  stop3: 0
+  stop4: 0
+  stop5: 0
 --- !u!82 &330208546
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5137,6 +5145,15 @@ MonoBehaviour:
   portal: {fileID: 1550175759}
   lvlMusic: {fileID: 53070237}
   death: {fileID: 801923}
+  text1: {fileID: 0}
+  text2: {fileID: 0}
+  text3: {fileID: 0}
+  text4: {fileID: 0}
+  stop1: 0
+  stop2: 0
+  stop3: 0
+  stop4: 0
+  stop5: 0
 --- !u!61 &635554140
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12676,7 +12693,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefab: {fileID: 5213567850282078487, guid: 7a7d66977227b0c45be086d238841470, type: 3}
   detector: {fileID: 732539656}
-  canvas: {fileID: 387033137}
   tile: {fileID: 11400000, guid: 13146b60864b267449e8a016832dcd81, type: 2}
   hold: {fileID: 21300000, guid: 2c40cf308c4e79b4f90a7db80b1c6d00, type: 3}
   notHold: {fileID: 21300000, guid: e6442c3f568207240943dd1e749348af, type: 3}
@@ -15143,7 +15159,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefab: {fileID: 3300088965636078635, guid: 7e8e96c4cfa6598439d003c8d02fc161, type: 3}
   detector: {fileID: 732539656}
-  canvas: {fileID: 387033137}
   tile: {fileID: 11400000, guid: f79a7123051c1c743a1c45158e1d0817, type: 2}
   hold: {fileID: 21300000, guid: 736343ee9e0bfe343b58c9aad15ab153, type: 3}
   notHold: {fileID: 21300000, guid: a1af3f5cd672ada4aadb185b63c3f70e, type: 3}
@@ -15523,7 +15538,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefab: {fileID: 4056323277852497063, guid: 1d9ff97b15b03e24cb33767ac22b1182, type: 3}
   detector: {fileID: 732539656}
-  canvas: {fileID: 387033137}
   tile: {fileID: 11400000, guid: 7a1e61ab809975646a8c368fe153d4bd, type: 2}
   hold: {fileID: 21300000, guid: f81b56280df25064b8d2ed72f887d000, type: 3}
   notHold: {fileID: 21300000, guid: 99e4e030e1b962941baa78d92ccb77ac, type: 3}

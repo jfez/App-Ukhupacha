@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 2138677392}
-  m_IndirectSpecularColor: {r: 0.28502697, g: 0.37139347, b: 0.49601266, a: 1}
+  m_IndirectSpecularColor: {r: 0.2850269, g: 0.3713935, b: 0.49601045, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1460,7 +1460,7 @@ GameObject:
   - component: {fileID: 243094349}
   - component: {fileID: 243094351}
   - component: {fileID: 243094348}
-  - component: {fileID: 243094350}
+  - component: {fileID: 243094352}
   m_Layer: 5
   m_Name: PetzlLight
   m_TagString: Untagged
@@ -1524,24 +1524,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 243094346}
   m_CullTransparentMesh: 0
---- !u!114 &243094350
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 243094346}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e87b967d906bcf744896662872ceb4be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  prefab: {fileID: 6163112790495860922, guid: ff9f163a6e5f34d479637d67421ed567, type: 3}
-  detector: {fileID: 732539656}
-  canvas: {fileID: 387033137}
-  tile: {fileID: 11400000, guid: 25b8a9336a5f62f42b96e3ec3c06317d, type: 2}
-  hold: {fileID: 21300000, guid: d4e578506e2f0aa408ab78c1e2ee26ef, type: 3}
-  notHold: {fileID: 21300000, guid: 713b7f2e8dc113646b65fc5e07a4c9a3, type: 3}
 --- !u!61 &243094351
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1568,6 +1550,24 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 43.527527, y: 40.645863}
   m_EdgeRadius: 0
+--- !u!114 &243094352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 243094346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bbcbbc73d7a7104bbc8602c454c02e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueCanvas: {fileID: 1946476305}
+  prefab: {fileID: 6163112790495860922, guid: ff9f163a6e5f34d479637d67421ed567, type: 3}
+  detector: {fileID: 732539656}
+  tile: {fileID: 11400000, guid: 25b8a9336a5f62f42b96e3ec3c06317d, type: 2}
+  hold: {fileID: 21300000, guid: d4e578506e2f0aa408ab78c1e2ee26ef, type: 3}
+  notHold: {fileID: 21300000, guid: 713b7f2e8dc113646b65fc5e07a4c9a3, type: 3}
 --- !u!1 &249534314
 GameObject:
   m_ObjectHideFlags: 0
@@ -2182,6 +2182,7 @@ GameObject:
   - component: {fileID: 330208542}
   - component: {fileID: 330208541}
   - component: {fileID: 330208545}
+  - component: {fileID: 330208543}
   - component: {fileID: 330208546}
   m_Layer: 9
   m_Name: Scientist
@@ -2237,6 +2238,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &330208543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330208540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 805d732334de6114d8846fbf9261a70f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tutorialStep: 1
 --- !u!4 &330208544
 Transform:
   m_ObjectHideFlags: 0
@@ -2279,6 +2293,11 @@ MonoBehaviour:
   text2: {fileID: 1563155896}
   text3: {fileID: 731414212}
   text4: {fileID: 263882289}
+  stop1: 0
+  stop2: 0
+  stop3: 0
+  stop4: 0
+  stop5: 0
 --- !u!82 &330208546
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5311,6 +5330,11 @@ MonoBehaviour:
   text2: {fileID: 0}
   text3: {fileID: 0}
   text4: {fileID: 0}
+  stop1: 0
+  stop2: 0
+  stop3: 0
+  stop4: 0
+  stop5: 0
 --- !u!61 &635554140
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13211,7 +13235,7 @@ GameObject:
   - component: {fileID: 1518344359}
   - component: {fileID: 1518344358}
   - component: {fileID: 1518344357}
-  - component: {fileID: 1518344356}
+  - component: {fileID: 1518344360}
   m_Layer: 5
   m_Name: Zip
   m_TagString: Untagged
@@ -13238,24 +13262,6 @@ RectTransform:
   m_AnchoredPosition: {x: 119.75, y: -22.5}
   m_SizeDelta: {x: 43.9, y: 40.8}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1518344356
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1518344354}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e87b967d906bcf744896662872ceb4be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  prefab: {fileID: 5213567850282078487, guid: 7a7d66977227b0c45be086d238841470, type: 3}
-  detector: {fileID: 732539656}
-  canvas: {fileID: 387033137}
-  tile: {fileID: 11400000, guid: 13146b60864b267449e8a016832dcd81, type: 2}
-  hold: {fileID: 21300000, guid: 2c40cf308c4e79b4f90a7db80b1c6d00, type: 3}
-  notHold: {fileID: 21300000, guid: e6442c3f568207240943dd1e749348af, type: 3}
 --- !u!114 &1518344357
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13319,6 +13325,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1518344354}
   m_CullTransparentMesh: 0
+--- !u!114 &1518344360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1518344354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bbcbbc73d7a7104bbc8602c454c02e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueCanvas: {fileID: 1946476305}
+  prefab: {fileID: 5213567850282078487, guid: 7a7d66977227b0c45be086d238841470, type: 3}
+  detector: {fileID: 732539656}
+  tile: {fileID: 11400000, guid: 13146b60864b267449e8a016832dcd81, type: 2}
+  hold: {fileID: 21300000, guid: 2c40cf308c4e79b4f90a7db80b1c6d00, type: 3}
+  notHold: {fileID: 21300000, guid: e6442c3f568207240943dd1e749348af, type: 3}
 --- !u!1 &1527713800
 GameObject:
   m_ObjectHideFlags: 0
@@ -15777,7 +15801,7 @@ GameObject:
   - component: {fileID: 1816759834}
   - component: {fileID: 1816759836}
   - component: {fileID: 1816759833}
-  - component: {fileID: 1816759835}
+  - component: {fileID: 1816759837}
   m_Layer: 5
   m_Name: Blocker
   m_TagString: Untagged
@@ -15841,24 +15865,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1816759831}
   m_CullTransparentMesh: 0
---- !u!114 &1816759835
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1816759831}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e87b967d906bcf744896662872ceb4be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  prefab: {fileID: 3300088965636078635, guid: 7e8e96c4cfa6598439d003c8d02fc161, type: 3}
-  detector: {fileID: 732539656}
-  canvas: {fileID: 387033137}
-  tile: {fileID: 11400000, guid: f79a7123051c1c743a1c45158e1d0817, type: 2}
-  hold: {fileID: 21300000, guid: 736343ee9e0bfe343b58c9aad15ab153, type: 3}
-  notHold: {fileID: 21300000, guid: a1af3f5cd672ada4aadb185b63c3f70e, type: 3}
 --- !u!61 &1816759836
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15885,6 +15891,24 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 43.892086, y: 40.56423}
   m_EdgeRadius: 0
+--- !u!114 &1816759837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1816759831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bbcbbc73d7a7104bbc8602c454c02e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueCanvas: {fileID: 1946476305}
+  prefab: {fileID: 3300088965636078635, guid: 7e8e96c4cfa6598439d003c8d02fc161, type: 3}
+  detector: {fileID: 732539656}
+  tile: {fileID: 11400000, guid: f79a7123051c1c743a1c45158e1d0817, type: 2}
+  hold: {fileID: 21300000, guid: 736343ee9e0bfe343b58c9aad15ab153, type: 3}
+  notHold: {fileID: 21300000, guid: a1af3f5cd672ada4aadb185b63c3f70e, type: 3}
 --- !u!1 &1825853115
 GameObject:
   m_ObjectHideFlags: 0
@@ -16155,9 +16179,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1894971728}
   - component: {fileID: 1894971730}
-  - component: {fileID: 1894971732}
-  - component: {fileID: 1894971729}
   - component: {fileID: 1894971731}
+  - component: {fileID: 1894971729}
+  - component: {fileID: 1894971733}
   m_Layer: 5
   m_Name: Rope
   m_TagString: Untagged
@@ -16221,25 +16245,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1894971727}
   m_CullTransparentMesh: 0
---- !u!114 &1894971731
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1894971727}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e87b967d906bcf744896662872ceb4be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  prefab: {fileID: 4056323277852497063, guid: 1d9ff97b15b03e24cb33767ac22b1182, type: 3}
-  detector: {fileID: 732539656}
-  canvas: {fileID: 387033137}
-  tile: {fileID: 11400000, guid: 7a1e61ab809975646a8c368fe153d4bd, type: 2}
-  hold: {fileID: 21300000, guid: f81b56280df25064b8d2ed72f887d000, type: 3}
-  notHold: {fileID: 21300000, guid: 99e4e030e1b962941baa78d92ccb77ac, type: 3}
---- !u!61 &1894971732
+--- !u!61 &1894971731
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -16261,10 +16267,28 @@ BoxCollider2D:
     adaptiveTilingThreshold: 0
     drawMode: 0
     adaptiveTiling: 0
-  m_AutoTiling: 0
+  m_AutoTiling: 1
   serializedVersion: 2
   m_Size: {x: 43.596092, y: 40.96701}
   m_EdgeRadius: 0
+--- !u!114 &1894971733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1894971727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bbcbbc73d7a7104bbc8602c454c02e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueCanvas: {fileID: 1946476305}
+  prefab: {fileID: 4056323277852497063, guid: 1d9ff97b15b03e24cb33767ac22b1182, type: 3}
+  detector: {fileID: 732539656}
+  tile: {fileID: 11400000, guid: 7a1e61ab809975646a8c368fe153d4bd, type: 2}
+  hold: {fileID: 21300000, guid: f81b56280df25064b8d2ed72f887d000, type: 3}
+  notHold: {fileID: 21300000, guid: 99e4e030e1b962941baa78d92ccb77ac, type: 3}
 --- !u!1 &1918681034
 GameObject:
   m_ObjectHideFlags: 0

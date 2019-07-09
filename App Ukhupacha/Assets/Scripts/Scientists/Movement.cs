@@ -43,6 +43,7 @@ public class Movement : MonoBehaviour
     public bool stop5;
 
     private bool helmet;
+    private Canvas dialogueCanvas;
 
     // Start is called before the first frame update
     void Start()
@@ -66,6 +67,8 @@ public class Movement : MonoBehaviour
         stop3 = false;
         stop4 = false;
         stop5 = false;
+
+        dialogueCanvas = text1.GetComponentInParent<Canvas>();
 
         text1.SetActive(false);
         text2.SetActive(false);
@@ -279,6 +282,8 @@ public class Movement : MonoBehaviour
 
         if (col.gameObject.tag == "Stop2" && !stop2)
         {
+            dialogueCanvas.gameObject.SetActive(true);
+            text1.SetActive(false);
             text2.SetActive(true);
             stop2 = true;
             Time.timeScale = 0.0f;
@@ -287,6 +292,8 @@ public class Movement : MonoBehaviour
 
         if (col.gameObject.tag == "Stop3" && !stop3)
         {
+            dialogueCanvas.gameObject.SetActive(true);
+            text2.SetActive(false);
             text1.SetActive(true);
             stop3 = true;
             Time.timeScale = 0.0f;
@@ -295,6 +302,8 @@ public class Movement : MonoBehaviour
 
         if (col.gameObject.tag == "Stop4" && !stop4)
         {
+            dialogueCanvas.gameObject.SetActive(true);
+            text1.SetActive(false);
             text3.SetActive(true);
             stop4 = true;
             Time.timeScale = 0.0f;
@@ -303,6 +312,8 @@ public class Movement : MonoBehaviour
 
         if (col.gameObject.tag == "Stop5" && !stop5)
         {
+            dialogueCanvas.gameObject.SetActive(true);
+            text3.SetActive(false);
             text4.SetActive(true);
             stop5 = true;
             Time.timeScale = 0.0f;

@@ -9,13 +9,10 @@ public class Interactable : MonoBehaviour
 
     public GameObject prefab;
     public Detector detector;
-    public Canvas canvas;
     public Tile tile;
 
     public Sprite hold;
     public Sprite notHold;
-
-
 
     private Image buttonSprite;
 
