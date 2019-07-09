@@ -18,7 +18,7 @@ public class Win : MonoBehaviour
     void Start()
     {
         scientistsCount = 0;
-        numberScientists = 2;
+        numberScientists = 1;
         canvasWin.SetActive(false);
         victory = GetComponent<AudioSource>();
         win = false;

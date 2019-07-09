@@ -14,6 +14,11 @@ TagManager:
   - Tirolina
   - EndTirolina
   - Stop1
+  - Stop2
+  - Stop3
+  - Stop4
+  - Stop5
+  - RockDeath
   layers:
   - Default
   - TransparentFX

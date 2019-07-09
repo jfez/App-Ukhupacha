@@ -17,6 +17,9 @@ public class Movement : MonoBehaviour
     public AudioSource death;
 
     public GameObject text1;
+    public GameObject text2;
+    public GameObject text3;
+    public GameObject text4;
 
     private GameObject init;
     private GameObject end;
@@ -33,13 +36,19 @@ public class Movement : MonoBehaviour
     private Rigidbody2D rb2d;
     private bool inTirolina;
 
-    private bool stop1;
+    public bool stop1;
+    public bool stop2;
+    public bool stop3;
+    public bool stop4;
+    public bool stop5;
+
+    private bool helmet;
 
     // Start is called before the first frame update
     void Start()
     {
         speed = 0.4f;
-        speedTirolina = 0.01f;
+        speedTirolina = 2f;
         
         movement = new Vector2(1, 0);
         dir = 1;
@@ -53,9 +62,19 @@ public class Movement : MonoBehaviour
         inTirolina = false;
 
         stop1 = false;
-        text1.SetActive(false);
+        stop2 = false;
+        stop3 = false;
+        stop4 = false;
+        stop5 = false;
 
-        
+        text1.SetActive(false);
+        text2.SetActive(false);
+        text3.SetActive(false);
+        text4.SetActive(false);
+
+        helmet = true;
+
+
     }
 
     // Update is called once per frame
@@ -132,6 +151,38 @@ public class Movement : MonoBehaviour
 
         }
 
+        if (col.gameObject.tag == "RockDeath")
+        {
+            if (helmet)
+            {
+                helmet = false;
+                //print("mi gorro!!");
+                Destroy(col.gameObject);
+            }
+
+            else
+            {
+                canvasDead.SetActive(true);
+                dead = true;
+                exit.dead = true;
+
+                death.Play();
+                GameObject[] players;
+                players = GameObject.FindGameObjectsWithTag("Player");
+
+                foreach (GameObject player in players)
+                {
+                    Destroy(player.transform.GetChild(1).gameObject);
+                }
+                lvlMusic.Stop();
+                Time.timeScale = 0.0f;
+            }
+
+            
+
+
+        }
+
         if (col.gameObject.tag == "Rope" && !hold)
         {
             //GetComponent<Rigidbody2D>().gravityScale = 0.1f;
@@ -203,6 +254,8 @@ public class Movement : MonoBehaviour
             sound.clip = tirolina;
             sound.Play();
 
+            //print(inTirolina);
+
 
 
         }
@@ -211,7 +264,7 @@ public class Movement : MonoBehaviour
         {
             inTirolina = false;
             rb2d.isKinematic = false;
-            print("exit tirolina");
+            //print("exit tirolina");
 
             
         }
@@ -220,6 +273,38 @@ public class Movement : MonoBehaviour
         {
             text1.SetActive(true);
             stop1 = true;
+            Time.timeScale = 0.0f;
+
+        }
+
+        if (col.gameObject.tag == "Stop2" && !stop2)
+        {
+            text2.SetActive(true);
+            stop2 = true;
+            Time.timeScale = 0.0f;
+
+        }
+
+        if (col.gameObject.tag == "Stop3" && !stop3)
+        {
+            text1.SetActive(true);
+            stop3 = true;
+            Time.timeScale = 0.0f;
+
+        }
+
+        if (col.gameObject.tag == "Stop4" && !stop4)
+        {
+            text3.SetActive(true);
+            stop4 = true;
+            Time.timeScale = 0.0f;
+
+        }
+
+        if (col.gameObject.tag == "Stop5" && !stop5)
+        {
+            text4.SetActive(true);
+            stop5 = true;
             Time.timeScale = 0.0f;
 
         }
