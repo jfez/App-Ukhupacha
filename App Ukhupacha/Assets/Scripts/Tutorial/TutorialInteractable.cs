@@ -8,14 +8,13 @@ public class TutorialInteractable : MonoBehaviour
 {
     public Canvas dialogueCanvas;
     public GameObject prefab;
-    public Detector detector;
+    public TutorialDetector detector;
     public Tile tile;
 
     public Sprite hold;
     public Sprite notHold;
 
-    private Movement movement;
-
+    Movement movement;
     Image buttonSprite;
     Vector3 position;
 
@@ -37,9 +36,14 @@ public class TutorialInteractable : MonoBehaviour
 
         movement.speed = 0.4f;
         movement.tutorialPause = false;
+
         position = detector.GetPosition();
         Instantiate(prefab, position, prefab.transform.rotation);
+
         detector.RefreshTile(tile);
+        detector.coordinateCounter++;
+        detector.pointReached = false;
+        detector.canClick = false;
     }
 
     /*IEnumerator UpdateCollider()

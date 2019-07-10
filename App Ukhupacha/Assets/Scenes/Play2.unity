@@ -2155,6 +2155,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89fd01b40fb845e4b812c2ea4e6eba04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tutorialDetector: {fileID: 0}
   dead: 0
   canvasDead: {fileID: 623234054}
   anim: {fileID: 1773721984}
@@ -2162,6 +2163,8 @@ MonoBehaviour:
   win: {fileID: 1009567293}
   roping: {fileID: 8300000, guid: 454c7110d73870b4a99aa7963187df98, type: 3}
   tirolina: {fileID: 8300000, guid: 80af7504583ec5a47a7ce8087bfda95f, type: 3}
+  pickUpHelmet: {fileID: 0}
+  breakHelmet: {fileID: 0}
   portal: {fileID: 1550175759}
   lvlMusic: {fileID: 53070237}
   death: {fileID: 801923}
@@ -2169,6 +2172,8 @@ MonoBehaviour:
   text2: {fileID: 0}
   text3: {fileID: 0}
   text4: {fileID: 0}
+  speed: 0
+  tutorialPause: 0
   stop1: 0
   stop2: 0
   stop3: 0
@@ -5135,6 +5140,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89fd01b40fb845e4b812c2ea4e6eba04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tutorialDetector: {fileID: 0}
   dead: 0
   canvasDead: {fileID: 623234054}
   anim: {fileID: 572483259}
@@ -5142,6 +5148,8 @@ MonoBehaviour:
   win: {fileID: 1009567293}
   roping: {fileID: 8300000, guid: 454c7110d73870b4a99aa7963187df98, type: 3}
   tirolina: {fileID: 8300000, guid: 80af7504583ec5a47a7ce8087bfda95f, type: 3}
+  pickUpHelmet: {fileID: 0}
+  breakHelmet: {fileID: 0}
   portal: {fileID: 1550175759}
   lvlMusic: {fileID: 53070237}
   death: {fileID: 801923}
@@ -5149,6 +5157,8 @@ MonoBehaviour:
   text2: {fileID: 0}
   text3: {fileID: 0}
   text4: {fileID: 0}
+  speed: 0
+  tutorialPause: 0
   stop1: 0
   stop2: 0
   stop3: 0

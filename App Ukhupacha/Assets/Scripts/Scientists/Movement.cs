@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
+    public TutorialDetector tutorialDetector;
+
     public bool dead;
     public GameObject canvasDead;
     public Animator anim;
@@ -298,8 +300,8 @@ public class Movement : MonoBehaviour
             stop1 = true;
             //Time.timeScale = 0.0f;
             speed = 0f;
-            
 
+            tutorialDetector.ShowTargetTile();
         }
 
         if (col.gameObject.tag == "Stop2" && !stop2)
@@ -311,8 +313,8 @@ public class Movement : MonoBehaviour
             stop2 = true;
             //Time.timeScale = 0.0f;
             speed = 0f;
-            
 
+            tutorialDetector.ShowTargetTile();
         }
 
         if (col.gameObject.tag == "Stop3" && !stop3)
@@ -324,8 +326,8 @@ public class Movement : MonoBehaviour
             stop3 = true;
             //Time.timeScale = 0.0f;
             speed = 0f;
-            
 
+            tutorialDetector.ShowTargetTile();
         }
 
         if (col.gameObject.tag == "Stop4" && !stop4)
@@ -337,8 +339,8 @@ public class Movement : MonoBehaviour
             stop4 = true;
             //Time.timeScale = 0.0f;
             speed = 0f;
-            
 
+            tutorialDetector.ShowTargetTile();
         }
 
         if (col.gameObject.tag == "Stop5" && !stop5)
@@ -350,8 +352,8 @@ public class Movement : MonoBehaviour
             stop5 = true;
             //Time.timeScale = 0.0f;
             speed = 0f;
-            
 
+            tutorialDetector.ShowTargetTile();
         }
 
         if (col.gameObject.tag == "Helmet" && !helmet)
