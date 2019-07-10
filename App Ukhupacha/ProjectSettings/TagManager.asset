@@ -19,6 +19,7 @@ TagManager:
   - Stop4
   - Stop5
   - RockDeath
+  - Helmet
   layers:
   - Default
   - TransparentFX

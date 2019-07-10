@@ -12,9 +12,13 @@ public class Movement : MonoBehaviour
     
     public AudioClip roping;
     public AudioClip tirolina;
+    public AudioClip pickUpHelmet;
+    public AudioClip breakHelmet;
+
     public AudioSource portal;
     public AudioSource lvlMusic;
     public AudioSource death;
+    
 
     public GameObject text1;
     public GameObject text2;
@@ -26,7 +30,10 @@ public class Movement : MonoBehaviour
 
     private float vertSpeed;
 
-    private float speed;             
+    [HideInInspector]public float speed;
+    [HideInInspector]public bool tutorialPause;
+
+
     private Vector2 movement;
     private int dir;
     private bool hold;
@@ -75,7 +82,10 @@ public class Movement : MonoBehaviour
         text3.SetActive(false);
         text4.SetActive(false);
 
-        helmet = true;
+        helmet = false;
+
+        tutorialPause = false;
+        
 
 
     }
@@ -95,6 +105,11 @@ public class Movement : MonoBehaviour
         else
         {
             GetComponent<Rigidbody2D>().velocity = new Vector2(0, -vertSpeed);
+        }
+
+        if (!tutorialPause)
+        {
+            dialogueCanvas.gameObject.SetActive(false);
         }
 
 
@@ -161,6 +176,9 @@ public class Movement : MonoBehaviour
                 helmet = false;
                 //print("mi gorro!!");
                 Destroy(col.gameObject);
+                anim.SetBool("helmet", helmet);
+                sound.clip = breakHelmet;
+                sound.Play();
             }
 
             else
@@ -274,49 +292,76 @@ public class Movement : MonoBehaviour
 
         if (col.gameObject.tag == "Stop1" && !stop1)
         {
+            tutorialPause = true;
+            dialogueCanvas.gameObject.SetActive(true);
             text1.SetActive(true);
             stop1 = true;
-            Time.timeScale = 0.0f;
+            //Time.timeScale = 0.0f;
+            speed = 0f;
+            
 
         }
 
         if (col.gameObject.tag == "Stop2" && !stop2)
         {
+            tutorialPause = true;
             dialogueCanvas.gameObject.SetActive(true);
             text1.SetActive(false);
             text2.SetActive(true);
             stop2 = true;
-            Time.timeScale = 0.0f;
+            //Time.timeScale = 0.0f;
+            speed = 0f;
+            
 
         }
 
         if (col.gameObject.tag == "Stop3" && !stop3)
         {
+            tutorialPause = true;
             dialogueCanvas.gameObject.SetActive(true);
             text2.SetActive(false);
             text1.SetActive(true);
             stop3 = true;
-            Time.timeScale = 0.0f;
+            //Time.timeScale = 0.0f;
+            speed = 0f;
+            
 
         }
 
         if (col.gameObject.tag == "Stop4" && !stop4)
         {
+            tutorialPause = true;
             dialogueCanvas.gameObject.SetActive(true);
             text1.SetActive(false);
             text3.SetActive(true);
             stop4 = true;
-            Time.timeScale = 0.0f;
+            //Time.timeScale = 0.0f;
+            speed = 0f;
+            
 
         }
 
         if (col.gameObject.tag == "Stop5" && !stop5)
         {
+            tutorialPause = true;
             dialogueCanvas.gameObject.SetActive(true);
             text3.SetActive(false);
             text4.SetActive(true);
             stop5 = true;
-            Time.timeScale = 0.0f;
+            //Time.timeScale = 0.0f;
+            speed = 0f;
+            
+
+        }
+
+        if (col.gameObject.tag == "Helmet" && !helmet)
+        {
+            helmet = true;
+            anim.SetBool("helmet", helmet);
+            Destroy(col.gameObject);
+            sound.clip = pickUpHelmet;
+            sound.Play();
+
 
         }
 
