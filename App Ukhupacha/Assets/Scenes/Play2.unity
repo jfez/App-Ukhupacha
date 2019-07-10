@@ -2073,6 +2073,7 @@ GameObject:
   - component: {fileID: 330208541}
   - component: {fileID: 330208545}
   - component: {fileID: 330208546}
+  - component: {fileID: 330208543}
   m_Layer: 9
   m_Name: Scientist
   m_TagString: Player
@@ -2127,6 +2128,31 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &330208543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330208540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8feb3dff11d68be4badc42e20530d4d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dead: 0
+  canvasDead: {fileID: 623234054}
+  anim: {fileID: 1773721984}
+  exit: {fileID: 653651968}
+  win: {fileID: 1009567293}
+  roping: {fileID: 8300000, guid: 454c7110d73870b4a99aa7963187df98, type: 3}
+  tirolina: {fileID: 8300000, guid: 80af7504583ec5a47a7ce8087bfda95f, type: 3}
+  pickUpHelmet: {fileID: 0}
+  breakHelmet: {fileID: 0}
+  portal: {fileID: 1550175759}
+  lvlMusic: {fileID: 53070237}
+  death: {fileID: 801923}
+  speed: 0
 --- !u!4 &330208544
 Transform:
   m_ObjectHideFlags: 0
@@ -2150,7 +2176,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330208540}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 89fd01b40fb845e4b812c2ea4e6eba04, type: 3}
   m_Name: 
@@ -2201,7 +2227,7 @@ AudioSource:
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
-  Pan2D: 0
+  Pan2D: -0.442
   rolloffMode: 0
   BypassEffects: 0
   BypassListenerEffects: 0
@@ -5025,6 +5051,7 @@ GameObject:
   - component: {fileID: 635554140}
   - component: {fileID: 635554139}
   - component: {fileID: 635554138}
+  - component: {fileID: 635554143}
   m_Layer: 9
   m_Name: Scientist (1)
   m_TagString: Player
@@ -5135,7 +5162,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 635554137}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 89fd01b40fb845e4b812c2ea4e6eba04, type: 3}
   m_Name: 
@@ -5227,6 +5254,31 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &635554143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 635554137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8feb3dff11d68be4badc42e20530d4d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dead: 0
+  canvasDead: {fileID: 623234054}
+  anim: {fileID: 572483259}
+  exit: {fileID: 653651968}
+  win: {fileID: 1009567293}
+  roping: {fileID: 8300000, guid: 454c7110d73870b4a99aa7963187df98, type: 3}
+  tirolina: {fileID: 8300000, guid: 80af7504583ec5a47a7ce8087bfda95f, type: 3}
+  pickUpHelmet: {fileID: 0}
+  breakHelmet: {fileID: 0}
+  portal: {fileID: 1550175759}
+  lvlMusic: {fileID: 53070237}
+  death: {fileID: 801923}
+  speed: 0
 --- !u!1 &653651967
 GameObject:
   m_ObjectHideFlags: 0
