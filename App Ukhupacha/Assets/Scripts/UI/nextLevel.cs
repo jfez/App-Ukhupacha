@@ -43,7 +43,7 @@ public class nextLevel : MonoBehaviour
     {
         buttonSprite.sprite = notHold;
         
-        SceneManager.LoadScene("Play2");
+        SceneManager.LoadScene("Play2-1");
 
     }
 }

@@ -9,7 +9,8 @@ public class Win : MonoBehaviour
     public bool win;
     public Dialogue dialogue;
 
-    private int numberScientists;
+    public int numberScientists;
+
     private AudioSource victory;
     
     
@@ -18,7 +19,7 @@ public class Win : MonoBehaviour
     void Start()
     {
         scientistsCount = 0;
-        numberScientists = 1;
+        
         canvasWin.SetActive(false);
         victory = GetComponent<AudioSource>();
         win = false;

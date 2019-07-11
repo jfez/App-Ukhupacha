@@ -8409,6 +8409,7 @@ MonoBehaviour:
   canvasWin: {fileID: 2142685956}
   win: 0
   dialogue: {fileID: 1440764962}
+  numberScientists: 1
 --- !u!82 &1009567294
 AudioSource:
   m_ObjectHideFlags: 0

@@ -32,7 +32,7 @@ public class Detector : MonoBehaviour
     GraphicRaycaster hudRaycaster;
     PointerEventData hudPointEventData;
 
-    public Dialogue dialogue;
+    public Level2 dialogue;
 
     public bool canClick;
     public bool inMenu;

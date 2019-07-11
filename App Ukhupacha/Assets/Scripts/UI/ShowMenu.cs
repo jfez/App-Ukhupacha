@@ -13,6 +13,7 @@ public class ShowMenu : MonoBehaviour
     
     public TutorialDetector detector;
 
+
     public Dialogue dialogue;
 
     private SpriteRenderer buttonSprite;
