@@ -7,7 +7,7 @@ public class exitCanvas2 : MonoBehaviour
     public Sprite hold;
     public Sprite notHold;
     public GameObject canvasExit;
-    public Detector detector;
+    public TutorialDetector detector;
     public Dialogue dialogue;
 
 

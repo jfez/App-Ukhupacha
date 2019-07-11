@@ -8,7 +8,7 @@ public class ExitMenu : MonoBehaviour
     public Sprite notHold;
     public GameObject canvasMenu;
     public Exit exitScript;
-    public Detector detector;
+    public TutorialDetector detector;
     public Dialogue dialogue;
 
     private SpriteRenderer buttonSprite;

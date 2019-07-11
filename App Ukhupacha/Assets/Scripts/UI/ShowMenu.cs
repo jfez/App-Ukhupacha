@@ -10,7 +10,8 @@ public class ShowMenu : MonoBehaviour
     public Sprite hold;
     public Sprite notHold;
 
-    public Detector detector;
+    
+    public TutorialDetector detector;
 
     public Dialogue dialogue;
 

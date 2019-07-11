@@ -6,7 +6,7 @@ public class Exit : MonoBehaviour
 {
     public GameObject canvasMenu;
     public bool paused;
-    public Detector detector;
+    public TutorialDetector detector;
     public GameObject canvasSure1;
     public GameObject canvasSure2;
     public Win win;

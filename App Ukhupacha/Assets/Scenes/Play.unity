@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 2138677392}
-  m_IndirectSpecularColor: {r: 0.2850269, g: 0.3713935, b: 0.49601045, a: 1}
+  m_IndirectSpecularColor: {r: 0.28502697, g: 0.37139347, b: 0.49601266, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1938,7 +1938,7 @@ MonoBehaviour:
   hold: {fileID: 21300000, guid: 511293ea3ccc22f419523def0037d568, type: 3}
   notHold: {fileID: 21300000, guid: f8df958235da0d6459f1bede2d72b45f, type: 3}
   canvasExit: {fileID: 618414284}
-  detector: {fileID: 0}
+  detector: {fileID: 732539656}
   dialogue: {fileID: 1440764962}
   sound: {fileID: 702723251}
 --- !u!212 &272470373
@@ -2007,7 +2007,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &294338922
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2500,8 +2500,8 @@ MonoBehaviour:
   hold: {fileID: 21300000, guid: b38a8aa90dde20247b632eb5b9f12c18, type: 3}
   notHold: {fileID: 21300000, guid: 56077f9109a70404a9c743aacd2dd968, type: 3}
   canvasExit: {fileID: 504430598}
-  detector: {fileID: 0}
-  dialogue: {fileID: 0}
+  detector: {fileID: 732539656}
+  dialogue: {fileID: 1440764962}
 --- !u!212 &346763952
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2727,7 +2727,7 @@ MonoBehaviour:
   exitScript: {fileID: 653651968}
   hold: {fileID: 21300000, guid: d62a1b0a49de5b94f919370f54fa8404, type: 3}
   notHold: {fileID: 21300000, guid: ba10aa05946496642a22d57792b2cdf2, type: 3}
-  detector: {fileID: 0}
+  detector: {fileID: 732539656}
   dialogue: {fileID: 1440764962}
 --- !u!61 &353421368
 BoxCollider2D:
@@ -3282,7 +3282,7 @@ MonoBehaviour:
   notHold: {fileID: 21300000, guid: 47ec2c0969a07c44882aac8c706f35b1, type: 3}
   canvasMenu: {fileID: 294338921}
   exitScript: {fileID: 653651968}
-  detector: {fileID: 0}
+  detector: {fileID: 732539656}
   dialogue: {fileID: 1440764962}
   sound: {fileID: 702723251}
 --- !u!61 &401563603
@@ -3940,7 +3940,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &504430599
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4966,7 +4966,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &618414285
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5066,7 +5066,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &623234055
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5543,7 +5543,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canvasMenu: {fileID: 294338921}
   paused: 0
-  detector: {fileID: 0}
+  detector: {fileID: 732539656}
   canvasSure1: {fileID: 618414284}
   canvasSure2: {fileID: 504430598}
   win: {fileID: 1009567293}
@@ -5955,7 +5955,7 @@ MonoBehaviour:
   hold: {fileID: 21300000, guid: 42b22b61786a758498389cbb1c2f950d, type: 3}
   notHold: {fileID: 21300000, guid: f137399eb9af7094db7cb16eb3af2d89, type: 3}
   canvasExit: {fileID: 618414284}
-  detector: {fileID: 0}
+  detector: {fileID: 732539656}
   dialogue: {fileID: 1440764962}
 --- !u!212 &727771126
 SpriteRenderer:
@@ -9416,7 +9416,7 @@ MonoBehaviour:
   hold: {fileID: 21300000, guid: 511293ea3ccc22f419523def0037d568, type: 3}
   notHold: {fileID: 21300000, guid: f8df958235da0d6459f1bede2d72b45f, type: 3}
   canvasExit: {fileID: 504430598}
-  detector: {fileID: 0}
+  detector: {fileID: 732539656}
   sound: {fileID: 702723251}
 --- !u!61 &1166909327
 BoxCollider2D:
@@ -17487,7 +17487,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &2142685957
 MonoBehaviour:
   m_ObjectHideFlags: 0
