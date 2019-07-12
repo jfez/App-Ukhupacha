@@ -7,7 +7,7 @@ public class Movement_two : MonoBehaviour
     public bool dead;
     public GameObject canvasDead;
     public Animator anim;
-    public Exit exit;
+    public ExitLevelTwo exit;
     public Win win;
     
     public AudioClip roping;

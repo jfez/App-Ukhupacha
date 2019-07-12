@@ -11,7 +11,7 @@ public class ExitLevelTwo : MonoBehaviour
     public GameObject canvasSure2;
     public Win win;
     public AudioSource sound;
-    public Dialogue dialogue;
+    public Level2 dialogue;
     
 
 

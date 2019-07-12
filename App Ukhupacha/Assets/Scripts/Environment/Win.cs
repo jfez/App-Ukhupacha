@@ -7,7 +7,7 @@ public class Win : MonoBehaviour
     public int scientistsCount;
     public GameObject canvasWin;
     public bool win;
-    public Dialogue dialogue;
+    public Level2 dialogue;
 
     public int numberScientists;
 
