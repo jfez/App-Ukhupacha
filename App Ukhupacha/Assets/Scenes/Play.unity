@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 2138677392}
-  m_IndirectSpecularColor: {r: 0.28502697, g: 0.37139347, b: 0.49601266, a: 1}
+  m_IndirectSpecularColor: {r: 0.2850269, g: 0.3713935, b: 0.49601045, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2251,7 +2251,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.02, y: 0.08}
+  m_Offset: {x: -0.019999996, y: 0.019236088}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2262,7 +2262,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.26, y: 0.6}
+  m_Size: {x: 0.26, y: 0.47847223}
   m_EdgeRadius: 0
 --- !u!50 &330208542
 Rigidbody2D:
@@ -8408,7 +8408,7 @@ MonoBehaviour:
   scientistsCount: 0
   canvasWin: {fileID: 2142685956}
   win: 0
-  dialogue: {fileID: 1440764962}
+  dialogue: {fileID: 0}
   numberScientists: 1
 --- !u!82 &1009567294
 AudioSource:

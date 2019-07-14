@@ -145,6 +145,7 @@ public class Movement : MonoBehaviour
         if (collision.gameObject.tag == "Ground")
         {
             anim.SetTrigger("inGround");
+            hold = false;
         }
         
     }
