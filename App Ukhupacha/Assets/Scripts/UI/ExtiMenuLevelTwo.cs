@@ -28,12 +28,6 @@ public class ExtiMenuLevelTwo : MonoBehaviour
         
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
     void OnMouseDrag()
     {
         buttonSprite.sprite = hold;
