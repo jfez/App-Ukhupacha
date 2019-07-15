@@ -9,7 +9,7 @@ public class ExtiMenuLevelTwo : MonoBehaviour
     public GameObject canvasMenu;
     public ExitLevelTwo exitScript;
     public Detector detector;
-    public Dialogue dialogue;
+    public Level2 dialogue;
 
     private SpriteRenderer buttonSprite;
 

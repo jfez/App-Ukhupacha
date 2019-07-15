@@ -13,7 +13,7 @@ public class Level2 : MonoBehaviour
     public GameObject exitCanvas;
 
     public GameObject[] scientists;
-    //public GameObject rockSpawner;
+    public GameObject rockSpawner;
     public bool started;
 
 
@@ -25,7 +25,7 @@ public class Level2 : MonoBehaviour
     {
         
 
-        //rockSpawner.SetActive(false);
+        rockSpawner.SetActive(false);
 
         started = false;
 
@@ -87,7 +87,7 @@ public class Level2 : MonoBehaviour
                 scientist.SetActive(true);
             }
 
-            //rockSpawner.SetActive(true);
+            rockSpawner.SetActive(true);
 
             started = true;
             countdown = false;

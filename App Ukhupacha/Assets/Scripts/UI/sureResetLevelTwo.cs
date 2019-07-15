@@ -8,7 +8,7 @@ public class sureResetLevelTwo : MonoBehaviour
     public Sprite notHold;
     public GameObject canvasExit;
     public Detector detector;
-    public Dialogue dialogue;
+    public Level2 dialogue;
 
     private SpriteRenderer buttonSprite;
     private BoxCollider2D col;

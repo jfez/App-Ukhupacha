@@ -258,7 +258,7 @@ public class Movement_two : MonoBehaviour
         {
             helmet = true;
             anim.SetBool("helmet", helmet);
-            Destroy(col.gameObject);
+            //Destroy(col.gameObject);
             sound.clip = pickUpHelmet;
             sound.Play();
 

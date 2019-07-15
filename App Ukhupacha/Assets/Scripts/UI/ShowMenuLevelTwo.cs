@@ -14,7 +14,7 @@ public class ShowMenuLevelTwo : MonoBehaviour
     public Detector detector;
 
 
-    public Dialogue dialogue;
+    public Level2 dialogue;
 
     private SpriteRenderer buttonSprite;
 

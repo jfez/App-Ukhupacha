@@ -8,6 +8,7 @@ public class Win : MonoBehaviour
     public GameObject canvasWin;
     public bool win;
     public Level2 dialogue;
+    public Detector detector;
 
     public int numberScientists;
 
@@ -43,6 +44,7 @@ public class Win : MonoBehaviour
             Time.timeScale = 0.0f;
 
             win = true;
+            detector.inMenu = true;
 
 
         }

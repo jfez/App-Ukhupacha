@@ -44,5 +44,6 @@ public class InitialMenu : MonoBehaviour
     {
         
         SceneManager.LoadScene("Init");
+        
     }
 }
