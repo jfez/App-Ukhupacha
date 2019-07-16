@@ -10,7 +10,7 @@ public class Movement : MonoBehaviour
     public GameObject canvasDead;
     public Animator anim;
     public Exit exit;
-    public Win win;
+    public Win1 win;
     
     public AudioClip roping;
     public AudioClip tirolina;

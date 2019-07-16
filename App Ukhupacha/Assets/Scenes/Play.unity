@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 2138677392}
-  m_IndirectSpecularColor: {r: 0.2850269, g: 0.3713935, b: 0.49601045, a: 1}
+  m_IndirectSpecularColor: {r: 0.28502697, g: 0.37139347, b: 0.49601266, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -5373,7 +5373,7 @@ MonoBehaviour:
   canvasDead: {fileID: 623234054}
   anim: {fileID: 572483259}
   exit: {fileID: 653651968}
-  win: {fileID: 1009567293}
+  win: {fileID: 0}
   roping: {fileID: 8300000, guid: 454c7110d73870b4a99aa7963187df98, type: 3}
   tirolina: {fileID: 8300000, guid: 80af7504583ec5a47a7ce8087bfda95f, type: 3}
   pickUpHelmet: {fileID: 0}
@@ -8402,13 +8402,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1009567289}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a9461f48f32a7c64e93fb8f8da591387, type: 3}
+  m_Script: {fileID: 11500000, guid: 2fe08e6432a4a50429130d9bafa3e7c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   scientistsCount: 0
   canvasWin: {fileID: 2142685956}
   win: 0
-  dialogue: {fileID: 0}
+  dialogue: {fileID: 1440764962}
+  detector: {fileID: 732539656}
   numberScientists: 1
 --- !u!82 &1009567294
 AudioSource:

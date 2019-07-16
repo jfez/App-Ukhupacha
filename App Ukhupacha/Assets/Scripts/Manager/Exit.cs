@@ -9,7 +9,7 @@ public class Exit : MonoBehaviour
     public TutorialDetector detector;
     public GameObject canvasSure1;
     public GameObject canvasSure2;
-    public Win win;
+    public Win1 win;
     public AudioSource sound;
     public Dialogue dialogue;
     
